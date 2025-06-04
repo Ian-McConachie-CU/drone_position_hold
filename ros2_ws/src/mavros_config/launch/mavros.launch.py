@@ -7,8 +7,13 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument(
             'fcu_url',
-            default_value='/dev/ttyACM0:115200',
-            description='FCU connection URL'
+            default_value='udp://:14550@localhost:14551',
+            description='FCU connection URL - connects to MAVProxy UDP output'
+        ),
+        DeclareLaunchArgument(
+            'gcs_url',
+            default_value='',
+            description='Ground Control Station URL'
         ),
         Node(
             package='mavros',
@@ -17,7 +22,7 @@ def generate_launch_description():
             output='both',
             parameters=[{
                 'fcu_url': LaunchConfiguration('fcu_url'),
-                'gcs_url': '',
+                'gcs_url': LaunchConfiguration('gcs_url'),
                 'system_id': 1,
                 'component_id': 1,
                 'fcu_protocol': 'v2.0',
