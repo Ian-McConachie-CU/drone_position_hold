@@ -26,16 +26,12 @@ def generate_launch_description():
                 'system_id': 1,
                 'component_id': 1,
                 'fcu_protocol': 'v2.0',
-                # Plugins for simulated vicon testing
+                # Minimal plugins for mocap position data
                 'plugin_allowlist': [
-                    'sys_status',           # Connection status
-                    'heartbeat',            # Keep alive  
-                    'imu',                  # IMU data
-                    'local_position',       # Local position feedback
-                    'vision_pose',          # Vision pose input (for simulated Vicon)
-                    'mocap',                # Mocap pose input (alternative)
-                    # Removed: param, home_position (causing timeouts)
-                    # Removed: setpoint_position (not needed for vision testing)
+                    'sys_status',           # Connection status (essential)
+                    'heartbeat',            # Keep alive (essential)
+                    'vision_pose',          # Vision pose input for Vicon data
+                    # Optional: 'mocap' - alternative to vision_pose
                 ],
                 # Connection settings
                 'conn': {
