@@ -1,0 +1,78 @@
+[0.023s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_dummy_driver -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver
+[0.226s] -- The C compiler identification is GNU 13.3.0
+[0.378s] -- The CXX compiler identification is GNU 13.3.0
+[0.408s] -- Detecting C compiler ABI info
+[0.710s] -- Detecting C compiler ABI info - done
+[0.724s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.726s] -- Detecting C compile features
+[0.726s] -- Detecting C compile features - done
+[0.741s] -- Detecting CXX compiler ABI info
+[1.016s] -- Detecting CXX compiler ABI info - done
+[1.031s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.033s] -- Detecting CXX compile features
+[1.033s] -- Detecting CXX compile features - done
+[1.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.347s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.595s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.654s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.674s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.840s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.994s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.023s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.163s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.206s] -- Found mocap4r2_msgs: 0.0.3 (/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.318s] -- Found mocap4r2_control: 0.0.7 (/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[2.370s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.611s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.653s] -- Configured cppcheck include dirs: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_dummy_driver/include
+[2.653s] -- Configured cppcheck exclude dirs and/or files: 
+[2.657s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.657s] -- Configured cpplint exclude dirs and/or files: 
+[2.657s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.659s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.659s] -- Added test 'lint_cmake' to check CMake code style
+[2.660s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.661s] -- Added test 'uncrustify' to check C / C++ code style
+[2.662s] -- Configured uncrustify additional arguments: 
+[2.663s] -- Added test 'xmllint' to check XML markup files
+[2.668s] -- Configuring done (2.6s)
+[2.756s] -- Generating done (0.1s)
+[2.769s] -- Build files have been written to: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver
+[2.804s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_dummy_driver -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver
+[2.806s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver -- -j4 -l4
+[2.950s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver.dir/src/mocap4r2_dummy_driver/mocap4r2_dummy_driver.cpp.o[0m
+[26.035s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_dummy_driver.a[0m
+[26.443s] [ 50%] Built target mocap4r2_dummy_driver
+[26.521s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver_main.dir/src/mocap4r2_dummy_driver_main.cpp.o[0m
+[35.650s] [100%] [32m[1mLinking CXX executable mocap4r2_dummy_driver_main[0m
+[37.661s] [100%] Built target mocap4r2_dummy_driver_main
+[37.706s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver -- -j4 -l4
+[37.709s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver
+[37.734s] -- Install configuration: ""
+[37.734s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/launch
+[37.735s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/launch/dummy.launch.py
+[37.780s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/lib/libmocap4r2_dummy_driver.a
+[37.791s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/lib/mocap4r2_dummy_driver/mocap4r2_dummy_driver_main
+[37.797s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/lib/mocap4r2_dummy_driver/mocap4r2_dummy_driver_main" to ""
+[37.798s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_dummy_driver
+[37.799s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_dummy_driver
+[37.799s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.sh
+[37.800s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.dsv
+[37.800s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.sh
+[37.800s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.dsv
+[37.808s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.bash
+[37.808s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.sh
+[37.821s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.zsh
+[37.824s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.dsv
+[37.825s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.dsv
+[37.826s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/packages/mocap4r2_dummy_driver
+[37.832s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.836s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig.cmake
+[37.840s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig-version.cmake
+[37.841s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.xml
+[37.849s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver

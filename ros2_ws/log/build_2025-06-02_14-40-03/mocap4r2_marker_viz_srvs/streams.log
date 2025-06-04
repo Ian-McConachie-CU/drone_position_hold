@@ -1,0 +1,271 @@
+[0.022s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs
+[2.243s] -- The C compiler identification is GNU 13.3.0
+[3.392s] -- The CXX compiler identification is GNU 13.3.0
+[3.452s] -- Detecting C compiler ABI info
+[3.836s] -- Detecting C compiler ABI info - done
+[3.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.859s] -- Detecting C compile features
+[3.860s] -- Detecting C compile features - done
+[3.890s] -- Detecting CXX compiler ABI info
+[4.236s] -- Detecting CXX compiler ABI info - done
+[4.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.265s] -- Detecting CXX compile features
+[4.266s] -- Detecting CXX compile features - done
+[4.266s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.698s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.985s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.182s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.189s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.040s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[7.046s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[7.051s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[7.057s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.043s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.417s] -- Found PythonExtra: /usr/bin/python3  
+[11.681s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.815s] -- Found ament_cmake_flake8: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[11.824s] -- Found ament_cmake_pep257: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[11.852s] -- Configuring done (11.8s)
+[11.997s] -- Generating done (0.1s)
+[12.022s] -- Build files have been written to: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+[12.060s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs
+[12.068s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs -- -j4 -l4
+[12.277s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.315s] [  2%] Built target ament_cmake_python_copy_mocap4r2_marker_viz_srvs
+[13.796s] [  2%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_type_description
+[13.867s] running egg_info
+[13.867s] creating mocap4r2_marker_viz_srvs.egg-info
+[13.912s] writing mocap4r2_marker_viz_srvs.egg-info/PKG-INFO
+[13.914s] writing dependency_links to mocap4r2_marker_viz_srvs.egg-info/dependency_links.txt
+[13.916s] writing top-level names to mocap4r2_marker_viz_srvs.egg-info/top_level.txt
+[13.924s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.924s] writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[13.977s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.276s] reading manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[14.277s] writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[14.547s] [  6%] Built target ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg
+[16.101s] [  9%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.c.o[0m
+[16.125s] [ 11%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__description.c.o[0m
+[16.170s] [ 13%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o[0m
+[16.821s] [ 15%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c.o[0m
+[16.960s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.c.o[0m
+[17.239s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o[0m
+[17.240s] [ 20%] Built target mocap4r2_marker_viz_srvs__cpp
+[17.488s] [ 22%] [32m[1mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_generator_c.so[0m
+[17.708s] [ 22%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_c
+[17.789s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.848s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.900s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.920s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.017s] [ 34%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o[0m
+[20.175s] [ 36%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support_c.cpp.o[0m
+[20.971s] [ 38%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o[0m
+[21.429s] [ 40%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o[0m
+[21.720s] [ 43%] [32m[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so[0m
+[22.112s] [ 45%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o[0m
+[22.164s] [ 45%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_c
+[22.355s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.430s] [ 50%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o[0m
+[23.145s] [ 52%] [32m[1mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so[0m
+[23.449s] [ 52%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c
+[23.628s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[24.432s] [ 56%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o[0m
+[25.591s] [ 59%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/set_marker_color__type_support.cpp.o[0m
+[26.454s] [ 61%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.cpp.o[0m
+[27.334s] [ 63%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support_c.cpp.o[0m
+[28.004s] [ 65%] [32m[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so[0m
+[28.389s] [ 65%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp
+[28.841s] [ 68%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.cpp.o[0m
+[29.682s] [ 70%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/reset_marker_color__type_support.cpp.o[0m
+[29.820s] [ 72%] [32m[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[30.221s] [ 72%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c
+[31.037s] [ 75%] [32m[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[31.524s] [ 75%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp
+[31.528s] [ 77%] [32m[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[31.829s] [ 77%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp
+[31.899s] [ 77%] Built target mocap4r2_marker_viz_srvs
+[31.960s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.327s] [ 79%] Built target mocap4r2_marker_viz_srvs__py
+[33.374s] [ 81%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c.o[0m
+[34.135s] [ 84%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c.o[0m
+[34.498s] [ 86%] [32m[1mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_generator_py.so[0m
+[34.632s] [ 86%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_py
+[34.686s] [ 88%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.016s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[35.111s] [ 90%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c
+[35.164s] [ 93%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[35.455s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so[0m
+[35.540s] [ 95%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c
+[35.607s] [ 97%] [32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.898s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[36.050s] [100%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c
+[36.173s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs -- -j4 -l4
+[36.176s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+[36.201s] -- Install configuration: ""
+[36.202s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_marker_viz_srvs
+[36.204s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json
+[36.205s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.207s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.207s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.208s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.c
+[36.209s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.h
+[36.210s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.h
+[36.211s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c
+[36.212s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.h
+[36.213s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.h
+[36.213s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.h
+[36.214s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c
+[36.215s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.c
+[36.216s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__description.c
+[36.217s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c
+[36.218s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.h
+[36.218s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.h
+[36.219s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.h
+[36.220s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[36.221s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_c__visibility_control.h
+[36.221s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.sh
+[36.223s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.dsv
+[36.223s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so
+[36.225s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so" to ""
+[36.226s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.226s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.226s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.228s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_c.h
+[36.228s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_c.h
+[36.228s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[36.230s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.230s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so
+[36.240s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.240s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.241s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.241s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.241s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_c.h
+[36.241s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_c.h
+[36.244s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c
+[36.245s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c
+[36.245s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[36.245s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.245s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so
+[36.245s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so" to ""
+[36.245s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so
+[36.246s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so" to ""
+[36.246s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.247s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.247s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.hpp
+[36.247s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.hpp
+[36.248s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.248s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.hpp
+[36.248s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.hpp
+[36.248s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.hpp
+[36.249s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__traits.hpp
+[36.249s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.hpp
+[36.249s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__builder.hpp
+[36.249s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__traits.hpp
+[36.249s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__builder.hpp
+[36.249s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[36.250s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[36.250s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.250s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.250s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.250s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps
+[36.250s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[36.256s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[36.256s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[36.256s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.257s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so
+[36.257s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.257s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[36.260s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[36.260s] -- Up-to-date: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[36.260s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.cpp
+[36.261s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[36.261s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.cpp
+[36.261s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[36.261s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so
+[36.263s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.264s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so
+[36.264s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so" to ""
+[36.269s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.sh
+[36.272s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.dsv
+[36.272s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/dependency_links.txt
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/PKG-INFO
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/top_level.txt
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/SOURCES.txt
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs
+[36.273s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[36.274s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[36.274s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv
+[36.276s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
+[36.277s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
+[36.277s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py
+[36.277s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/__init__.py
+[36.277s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
+[36.277s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[36.280s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.280s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/__init__.py
+[36.281s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[36.281s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
+[36.442s] Listing '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs'...
+[36.442s] Compiling '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/__init__.py'...
+[36.442s] Listing '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv'...
+[36.443s] Compiling '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/__init__.py'...
+[36.443s] Compiling '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py'...
+[36.443s] Compiling '/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py'...
+[36.467s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[36.469s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[36.469s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[36.470s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so" to ""
+[36.471s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[36.472s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so" to ""
+[36.473s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so
+[36.475s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so" to ""
+[36.476s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl
+[36.476s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl
+[36.476s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv
+[36.476s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv
+[36.479s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz_srvs
+[36.480s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz_srvs
+[36.480s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.sh
+[36.480s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.dsv
+[36.480s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.sh
+[36.481s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.dsv
+[36.481s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.bash
+[36.481s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.sh
+[36.482s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.zsh
+[36.482s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.dsv
+[36.483s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.dsv
+[36.483s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/packages/mocap4r2_marker_viz_srvs
+[36.485s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake
+[36.486s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-noconfig.cmake
+[36.486s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.486s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.486s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake
+[36.487s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.487s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake
+[36.487s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[36.490s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake
+[36.491s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.491s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.491s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[36.491s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.492s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake
+[36.492s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.492s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake
+[36.492s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-noconfig.cmake
+[36.493s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake-extras.cmake
+[36.493s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.493s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.495s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.495s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[36.495s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.496s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.496s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig.cmake
+[36.496s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig-version.cmake
+[36.500s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.xml
+[36.787s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs

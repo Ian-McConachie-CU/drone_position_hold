@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mocap4r2_marker_viz_srvs/srv/SetMarkerColor_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mocap4r2_marker_viz_srvs/srv/SetMarkerColor_Response",
+      "hash_string": "RIHS01_66972793ae19fe24d9673d6d522501276519b4515404772642d02a7d1e23ad59"
+    }
+  ]
+}

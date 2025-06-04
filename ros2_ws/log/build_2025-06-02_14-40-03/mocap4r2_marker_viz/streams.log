@@ -1,0 +1,78 @@
+[0.038s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz
+[0.260s] -- The C compiler identification is GNU 13.3.0
+[0.451s] -- The CXX compiler identification is GNU 13.3.0
+[0.529s] -- Detecting C compiler ABI info
+[0.835s] -- Detecting C compiler ABI info - done
+[0.853s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.854s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.873s] -- Detecting CXX compiler ABI info
+[1.212s] -- Detecting CXX compiler ABI info - done
+[1.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.254s] -- Detecting CXX compile features
+[1.258s] -- Detecting CXX compile features - done
+[1.264s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.758s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.045s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.119s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.162s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.355s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.360s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.527s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.565s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.612s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.724s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[2.782s] -- Found mocap4r2_msgs: 0.0.3 (/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.887s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.111s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.440s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[3.440s] -- Configured cppcheck exclude dirs and/or files: 
+[3.441s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.441s] -- Configured cpplint exclude dirs and/or files: 
+[3.447s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.447s] -- Configured 'flake8' exclude dirs and/or files: 
+[3.447s] -- Added test 'lint_cmake' to check CMake code style
+[3.452s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.454s] -- Added test 'uncrustify' to check C / C++ code style
+[3.454s] -- Configured uncrustify additional arguments: 
+[3.455s] -- Added test 'xmllint' to check XML markup files
+[3.461s] -- Configuring done (3.4s)
+[3.501s] -- Generating done (0.0s)
+[3.511s] -- Build files have been written to: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz
+[3.538s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz
+[3.538s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz -- -j4 -l4
+[3.667s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[27.295s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[28.388s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[28.442s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[34.081s] [100%] [32m[1mLinking CXX executable mocap4r2_marker_viz[0m
+[36.018s] [100%] Built target mocap4r2_marker_viz
+[36.112s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz -- -j4 -l4
+[36.113s] Invoking command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz
+[36.131s] -- Install configuration: ""
+[36.131s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+[36.177s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+[36.192s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz" to ""
+[36.192s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch
+[36.192s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+[36.196s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz
+[36.196s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+[36.204s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+[36.204s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+[36.204s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+[36.205s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+[36.205s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+[36.205s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+[36.205s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+[36.206s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+[36.207s] -- Installing: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml
+[36.210s] Invoked command in '/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mocap4r2_robot_gt_msgs/srv/SetGTOrigin_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "error_msg",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mocap4r2_robot_gt_msgs/srv/SetGTOrigin_Response",
+      "hash_string": "RIHS01_db043041f7a71dd2d4a3e56b46eabe6090e28667265ee20aa552e245b76fb0ad"
+    }
+  ]
+}
