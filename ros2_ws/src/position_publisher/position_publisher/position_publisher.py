@@ -11,7 +11,7 @@ import time
 import rclpy
 from rclpy.node import Node
 from scipy.spatial.transform import Rotation as R
-from std_msgs.msg import String
+from geometry_msgs.msg import PoseStamped
 
 '''
 1. subscribe to appropriate vicon topic
@@ -21,10 +21,10 @@ from std_msgs.msg import String
     
 class vicon2mavlink_bridge(Node):
 
-    def __init__(self, mavlink_connection_string:String):
+    def __init__(self, mavlink_connection_string):
         super().__init__('vicon_subscriber')
         self.subscription = self.create_subscription(
-            String,
+            PoseStamped,
             'topic', #enter vicon topic name here
             self.subscriber_callback,
             10)
