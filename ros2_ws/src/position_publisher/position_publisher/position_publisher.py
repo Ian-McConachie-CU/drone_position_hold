@@ -1,11 +1,3 @@
-import rclpy
-from rclpy.node import Node
-from geometry_msgs.msg import PoseStamped, TwistStamped
-from mavros_msgs.msg import State
-from mavros_msgs.srv import CommandBool, SetMode
-import math
-import time
-
 from pymavlink import mavutil
 import time
 import rclpy
@@ -77,16 +69,19 @@ class vicon2mavlink_bridge(Node):
         quaternion = np.array([quat.x, quat.y, quat.z, quat.w])
         
         rotation = R.from_quat(quaternion) 
-        euler_angles = rotation.as_euler('xyz', degrees=False) #need to double check if this should be degrees or radians    
+        euler_angles = rotation.as_euler('xyz', degrees=False) # needs to be in radians. See:
+        # https://mavlink.io/en/messages/common.html    
         
         roll = euler_angles[0]
         pitch = euler_angles[1]
         yaw =  euler_angles[2]
         
-        # do frame conversion here
         '''
+        FRAME CONVERSION FROM MOCAP TO NED
         Explain clearly what's going on with the conversions once we get there
-        link to image?
+        maybe include a link to image that explains this?
+        
+        
         '''
         x = x
         y = y
@@ -99,9 +94,7 @@ class vicon2mavlink_bridge(Node):
         
         self.send_global_vision_position_estimate(time_usec, x, y, z, roll, pitch, yaw)            
     
-
-
-def main(args=None): # this needs to be updated
+def main(args=None):
     
     rclpy.init(args=args)
     
@@ -112,7 +105,6 @@ def main(args=None): # this needs to be updated
 
     bridge.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
