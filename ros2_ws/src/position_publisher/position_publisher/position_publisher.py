@@ -6,190 +6,106 @@ from mavros_msgs.srv import CommandBool, SetMode
 import math
 import time
 
-class PositionPublisher(Node):
-    def __init__(self):
-        super().__init__('position_publisher')
+from pymavlink import mavutil
+import time
+import rclpy
+from rclpy.node import Node
+from scipy.spatial.transform import Rotation as R
+from std_msgs.msg import String
+
+'''
+1. subscribe to appropriate vicon topic
+2. unpack data in callback
+3. publish data to mavlink message in callback (using separate function)
+'''
+    
+class vicon2mavlink_bridge(Node):
+
+    def __init__(self, mavlink_connection_string:String):
+        super().__init__('vicon_subscriber')
+        self.subscription = self.create_subscription(
+            String,
+            'topic', #enter vicon topic name here
+            self.subscriber_callback,
+            10)
+        self.subscription  # prevent unused variable warning
         
-        # Publishers for vision pose (simulating Vicon input)
-        self.local_pos_pub = self.create_publisher(
-            PoseStamped, 
-            '/mavros/vision_pose/pose',
-            10
+        self.mavlink_master = mavutil.mavlink_connection(mavlink_connection_string)
+        self.mavlink_master.wait_heartbeat()
+        
+    def send_global_vision_position_estimate(time_usec, 
+                                             x, 
+                                             y, 
+                                             z, 
+                                             roll, 
+                                             pitch, 
+                                             yaw, 
+                                             covariance = None,
+                                             reset_counter = 0):
+        """
+        Sends a GLOBAL_VISION_POSITION_ESTIMATE message.
+        
+        Parameters:
+        - master: mavlink connection object
+        - time_usec: Timestamp (microseconds, synced to UNIX epoch or system boot)
+        - x, y, z: Global position in meters (NED frame)
+        - roll, pitch, yaw: Attitude angles in radians
+        """
+        
+        self.mavlink_master.mav.global_vision_position_estimate_send(
+            usec=usec,           # Timestamp (microseconds)
+            x=x,                 # Global X position
+            y=y,                 # Global Y position  
+            z=z,                 # Global Z position
+            roll=roll,           # Roll angle
+            pitch=pitch,         # Pitch angle
+            yaw=yaw,             # Yaw angle
+            covariance=covariance,  # Covariance matrix
+            reset_counter=reset_counter  # Reset counter
         )
-        
-        # Alternative publisher for mocap pose
-        self.velocity_pub = self.create_publisher(
-            PoseStamped,
-            '/mavros/mocap/pose',
-            10
-        )
-        
-        # Subscriber for VICON data (currently not used, ready for real Vicon)
-        # Uncomment this when ready to use real Vicon from mocap4ros:
-        # self.vicon_sub = self.create_subscription(
-        #     PoseStamped,
-        #     '/vicon/drone/pose',  # Change to your actual Vicon topic
-        #     self.vicon_callback,
-        #     10
-        # )
-        
-        # Subscribers
-        self.state_sub = self.create_subscription(
-            State,
-            '/mavros/state',
-            self.state_callback,
-            10
-        )
-        
-        # Service clients
-        self.arming_client = self.create_client(CommandBool, '/mavros/cmd/arming')
-        self.set_mode_client = self.create_client(SetMode, '/mavros/set_mode')
-        
-        # State variables
-        self.current_state = State()
-        self.position_target = PoseStamped()
-        self.use_vicon_data = False  # Set to True when using real Vicon
-        
-        # Timer for publishing position data
-        self.timer = self.create_timer(0.02, self.publish_position)  # 50Hz
-        
-        # Initialize position target
-        self.setup_initial_position()
-        
-        self.get_logger().info('Position Publisher Node Started')
-        if self.use_vicon_data:
-            self.get_logger().info('Mode: Using REAL Vicon data')
-        else:
-            self.get_logger().info('Mode: Using SIMULATED data (origin position)')
-        
-    def state_callback(self, msg):
-        self.current_state = msg
-        
-    def vicon_callback(self, msg):
-        """Callback for real Vicon data from mocap4ros"""
-        if self.use_vicon_data:
-            # Use real Vicon data
-            self.position_target = msg
-            # Ensure correct frame_id and timestamp
-            self.position_target.header.frame_id = "map"
-            self.position_target.header.stamp = self.get_clock().now().to_msg()
-        
-    def setup_initial_position(self):
-        """Setup initial position at origin"""
-        self.position_target.header.frame_id = "map"
-        
-        # Simple origin position (0,0,0)
-        self.position_target.pose.position.x = 0.0
-        self.position_target.pose.position.y = 0.0
-        self.position_target.pose.position.z = 0.0
-        
-        # No rotation (identity quaternion)
-        self.position_target.pose.orientation.x = 0.0
-        self.position_target.pose.orientation.y = 0.0
-        self.position_target.pose.orientation.z = 0.0
-        self.position_target.pose.orientation.w = 1.0
-        
-    def publish_position(self):
-        """Publish position data to flight controller"""
-        if not self.use_vicon_data:
-            # Update timestamp for simulated data
-            self.position_target.header.stamp = self.get_clock().now().to_msg()
-        
-        # Publish to both vision and mocap topics
-        self.local_pos_pub.publish(self.position_target)
-        self.velocity_pub.publish(self.position_target)
-        
-    def set_position_target(self, x, y, z, yaw=0.0):
-        """Manually set position (only works in simulation mode)"""
-        if not self.use_vicon_data:
-            self.position_target.pose.position.x = float(x)
-            self.position_target.pose.position.y = float(y)
-            self.position_target.pose.position.z = float(z)
-            
-            # Convert yaw to quaternion
-            self.position_target.pose.orientation.x = 0.0
-            self.position_target.pose.orientation.y = 0.0
-            self.position_target.pose.orientation.z = math.sin(yaw / 2.0)
-            self.position_target.pose.orientation.w = math.cos(yaw / 2.0)
-            
-            self.get_logger().info(f'Set position: x={x:.2f}, y={y:.2f}, z={z:.2f}, yaw={yaw:.2f}')
-        else:
-            self.get_logger().warn('Cannot manually set position when using real Vicon data')
 
-    def switch_to_vicon_mode(self):
-        """Switch to using real Vicon data"""
-        self.use_vicon_data = True
-        self.get_logger().info('Switched to REAL Vicon mode')
+        print(f"Sent GLOBAL_VISION_POSITION_ESTIMATE at time {time_usec}")
         
-    def switch_to_simulation_mode(self):
-        """Switch back to simulated data"""
-        self.use_vicon_data = False
-        self.setup_initial_position()
-        self.get_logger().info('Switched to SIMULATION mode')
 
-    def arm_vehicle(self):
-        """Arm the vehicle"""
-        if not self.arming_client.wait_for_service(timeout_sec=5.0):
-            self.get_logger().error('Arming service not available')
-            return False
-            
-        req = CommandBool.Request()
-        req.value = True
+    def subscriber_callback(self, msg):
+        #unpack msg here
         
-        future = self.arming_client.call_async(req)
-        rclpy.spin_until_future_complete(self, future)
+        x = msg.data.position.x   # meters North
+        y = msg.data.position.y   # meters East
+        z = msg.data.position.z   # meters Down (negative means above reference)
+        quat  = msg.data.orientation #assuming this is an array, otherwise cast as below:
+        quaternion = np.array([quat.x, quat.y, quat.z, quat.w])
         
-        if future.result() is not None:
-            if future.result().success:
-                self.get_logger().info('Vehicle armed successfully')
-                return True
-            else:
-                self.get_logger().error('Failed to arm vehicle')
-                return False
-        else:
-            self.get_logger().error('Arming service call failed')
-            return False
-            
-    def set_offboard_mode(self):
-        """Set vehicle to OFFBOARD mode"""
-        if not self.set_mode_client.wait_for_service(timeout_sec=5.0):
-            self.get_logger().error('Set mode service not available')
-            return False
-            
-        req = SetMode.Request()
-        req.custom_mode = 'OFFBOARD'
+        rotation = R.from_quat(quaternion) 
+        euler_angles = rotation.as_euler('xyz', degrees=False) #need to double check if this should be degrees or radians    
         
-        future = self.set_mode_client.call_async(req)
-        rclpy.spin_until_future_complete(self, future)
+        roll = euler_angles[0]
+        pitch = euler_angles[1]
+        yaw =  euler_angles[2]
         
-        if future.result() is not None:
-            if future.result().mode_sent:
-                self.get_logger().info('OFFBOARD mode set successfully')
-                return True
-            else:
-                self.get_logger().error('Failed to set OFFBOARD mode')
-                return False
-        else:
-            self.get_logger().error('Set mode service call failed')
-            return False
-            
-    def publish_velocity_setpoint(self, vx, vy, vz, yaw_rate=0.0):
-        """Publish velocity setpoint (for future use)"""
-        vel_msg = TwistStamped()
-        vel_msg.header.stamp = self.get_clock().now().to_msg()
-        vel_msg.header.frame_id = "base_link"
+        # do frame conversion here
+        '''
+        Explain clearly what's going on with the conversions once we get there
+        link to image?
+        '''
+        x = x
+        y = y
+        z = z
+        roll = roll
+        pitch = pitch
+        yaw = yaw
         
-        vel_msg.twist.linear.x = float(vx)
-        vel_msg.twist.linear.y = float(vy)
-        vel_msg.twist.linear.z = float(vz)
-        vel_msg.twist.angular.z = float(yaw_rate)
+        time_usec = int(time.time() * 1e6)
         
-        # Note: This would need a TwistStamped publisher, not PoseStamped
-        self.get_logger().info(f'Velocity setpoint: vx={vx}, vy={vy}, vz={vz}')
+        self.send_global_vision_position_estimate(time_usec, x, y, z, roll, pitch, yaw)            
+    
 
 
-def main(args=None):
+def main(args=None): # this needs to be updated
     rclpy.init(args=args)
+    
+    mavlink_connection_string = 'udpout:127.0.0.1:14550'
+    bridge = vicon2mavlink_bridge(mavlink_connection_string)
     
     # Create the position publisher node
     position_publisher = PositionPublisher()
