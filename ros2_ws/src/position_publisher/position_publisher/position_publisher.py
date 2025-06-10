@@ -38,7 +38,6 @@ class vicon2mavlink_bridge(Node):
         Sends a GLOBAL_VISION_POSITION_ESTIMATE message.
         
         Parameters:
-        - master: mavlink connection object
         - time_usec: Timestamp (microseconds, synced to UNIX epoch or system boot)
         - x, y, z: Global position in meters (NED frame)
         - roll, pitch, yaw: Attitude angles in radians
@@ -60,17 +59,21 @@ class vicon2mavlink_bridge(Node):
         
 
     def subscriber_callback(self, msg):
-        #unpack msg here
         
+        #unpack msg here  
         x = msg.data.position.x   # meters North
         y = msg.data.position.y   # meters East
         z = msg.data.position.z   # meters Down (negative means above reference)
         quat  = msg.data.orientation #assuming this is an array, otherwise cast as below:
         quaternion = np.array([quat.x, quat.y, quat.z, quat.w])
         
-        rotation = R.from_quat(quaternion) 
-        euler_angles = rotation.as_euler('xyz', degrees=False) # needs to be in radians. See:
+        rotation = R.from_quat(quaternion, scalar_last = True) # scalar last tells from_quat that w is listed last  
+        euler_angles = rotation.as_euler('zyx', degrees=False) 
+        # needs to be in radians. See:
         # https://mavlink.io/en/messages/common.html    
+        
+        # appears that rotation order is z-y-x:
+        # https://mavsdk.mavlink.io/v1.4/en/cpp/api_reference/structmavsdk_1_1_camera_1_1_euler_angle.html
         
         roll = euler_angles[0]
         pitch = euler_angles[1]
@@ -83,9 +86,9 @@ class vicon2mavlink_bridge(Node):
         
         
         '''
-        x = x
-        y = y
-        z = z
+        x = y
+        y = x
+        z = -z
         roll = roll
         pitch = pitch
         yaw = yaw
