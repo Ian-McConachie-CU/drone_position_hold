@@ -1,5 +1,5 @@
 test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o: \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/test/test_auxiliar.cpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/test/test_auxiliar.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
@@ -236,20 +236,20 @@ test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o: \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
  /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/control.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/control.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__struct.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__traits.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/mocap_info.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/ControlledLifecycleNode.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/mocap_info.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/ControlledLifecycleNode.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
@@ -753,8 +753,8 @@ test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o: \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
  /opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/ControllerNode.hpp \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/AuxiliarNode.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/ControllerNode.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include/mocap4r2_control/AuxiliarNode.hpp \
  /opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h \
  /opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-assertion-result.h \
  /opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest-message.h \

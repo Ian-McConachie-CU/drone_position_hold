@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "mocap4r2_msgs/msg/detail/rigid_body__functions.h"
 #include "mocap4r2_msgs/msg/detail/rigid_body__struct.h"
+#include "mocap4r2_msgs/msg/detail/rigid_body__functions.h"
 #include "mocap4r2_msgs/msg/detail/rigid_body__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

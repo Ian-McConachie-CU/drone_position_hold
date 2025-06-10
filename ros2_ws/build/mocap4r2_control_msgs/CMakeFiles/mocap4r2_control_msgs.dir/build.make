@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs
 
 # Utility rule file for mocap4r2_control_msgs.
 
@@ -66,8 +66,8 @@ include CMakeFiles/mocap4r2_control_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/mocap4r2_control_msgs.dir/progress.make
 
-CMakeFiles/mocap4r2_control_msgs: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs/msg/Control.msg
-CMakeFiles/mocap4r2_control_msgs: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs/msg/MocapInfo.msg
+CMakeFiles/mocap4r2_control_msgs: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs/msg/Control.msg
+CMakeFiles/mocap4r2_control_msgs: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs/msg/MocapInfo.msg
 CMakeFiles/mocap4r2_control_msgs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/mocap4r2_control_msgs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/mocap4r2_control_msgs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
@@ -146,6 +146,6 @@ CMakeFiles/mocap4r2_control_msgs.dir/clean:
 .PHONY : CMakeFiles/mocap4r2_control_msgs.dir/clean
 
 CMakeFiles/mocap4r2_control_msgs.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/CMakeFiles/mocap4r2_control_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/CMakeFiles/mocap4r2_control_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_control_msgs.dir/depend
 

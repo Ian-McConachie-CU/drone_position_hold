@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_mocap4r2_msgs -DROS_PACKAGE_NAME=\"mocap4r2_msgs\"
 
-CXX_INCLUDES = -I/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c
 
 CXX_FLAGS = -std=gnu++17 -fPIC -Wall
 

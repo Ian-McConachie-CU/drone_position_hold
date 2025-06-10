@@ -1,8 +1,8 @@
-# Install script for directory: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py
+# Install script for directory: /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs")
+  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

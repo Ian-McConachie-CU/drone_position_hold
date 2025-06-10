@@ -1,9 +1,9 @@
 {
   "package_name": "mocap4r2_control_msgs",
-  "output_dir": "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/rosidl_generator_type_description/mocap4r2_control_msgs",
+  "output_dir": "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/rosidl_generator_type_description/mocap4r2_control_msgs",
   "idl_tuples": [
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/rosidl_adapter/mocap4r2_control_msgs:msg/Control.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/rosidl_adapter/mocap4r2_control_msgs:msg/MocapInfo.idl"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/rosidl_adapter/mocap4r2_control_msgs:msg/Control.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/rosidl_adapter/mocap4r2_control_msgs:msg/MocapInfo.idl"
   ],
   "include_paths": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",

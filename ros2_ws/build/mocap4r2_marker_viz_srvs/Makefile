@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ mocap4r2_marker_viz_srvs__py: cmake_check_build_system
 
 # fast build rule for target.
 mocap4r2_marker_viz_srvs__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build.make /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build.make /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build
 .PHONY : mocap4r2_marker_viz_srvs__py/fast
 
 rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.o: rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c.o

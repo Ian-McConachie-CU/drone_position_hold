@@ -24,8 +24,8 @@ mocap4r2_msgs__msg__Markers__get_type_hash(
 
 // Include directives for referenced types
 #include "builtin_interfaces/msg/detail/time__functions.h"
-#include "mocap4r2_msgs/msg/detail/marker__functions.h"
 #include "geometry_msgs/msg/detail/point__functions.h"
+#include "mocap4r2_msgs/msg/detail/marker__functions.h"
 #include "std_msgs/msg/detail/header__functions.h"
 
 // Hashes for external referenced types

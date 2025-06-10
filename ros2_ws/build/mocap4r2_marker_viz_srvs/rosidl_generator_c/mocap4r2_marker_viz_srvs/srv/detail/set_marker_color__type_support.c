@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.h"
-#include "mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.h"
 #include "mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_mocap4r2_robot_gt_msgs -DROS_PACKAGE_NAME=\"mocap4r2_robot_gt_msgs\"
 
-C_INCLUDES = -I/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_typesupport_introspection_c -I/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_typesupport_introspection_c -I/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control
 
 # Utility rule file for mocap4r2_control_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/mocap4r2_control_uninstall.dir/compiler_depend.make
 include CMakeFiles/mocap4r2_control_uninstall.dir/progress.make
 
 CMakeFiles/mocap4r2_control_uninstall:
-	/usr/bin/cmake -P /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 mocap4r2_control_uninstall: CMakeFiles/mocap4r2_control_uninstall
 mocap4r2_control_uninstall: CMakeFiles/mocap4r2_control_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/mocap4r2_control_uninstall.dir/clean:
 .PHONY : CMakeFiles/mocap4r2_control_uninstall.dir/clean
 
 CMakeFiles/mocap4r2_control_uninstall.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles/mocap4r2_control_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles/mocap4r2_control_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_control_uninstall.dir/depend
 

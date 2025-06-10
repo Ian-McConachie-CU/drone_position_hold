@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_mocap4r2_vicon_driver.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/test_mocap4r2_vicon_driver.dir/progress.make
 include CMakeFiles/test_mocap4r2_vicon_driver.dir/flags.make
 
 CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o: CMakeFiles/test_mocap4r2_vicon_driver.dir/flags.make
-CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o: /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp
+CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp
 CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o: CMakeFiles/test_mocap4r2_vicon_driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o -MF CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o.d -o CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o -c /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o -MF CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o.d -o CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o -c /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp
 
 CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp > CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp > CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.i
 
 CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp -o CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/test/test_mocap4r2_vicon_driver.cpp -o CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.s
 
 # Object files for target test_mocap4r2_vicon_driver
 test_mocap4r2_vicon_driver_OBJECTS = \
@@ -97,14 +97,14 @@ test_mocap4r2_vicon_driver: gtest/libgtest.a
 test_mocap4r2_vicon_driver: libmocap4r2_vicon_driver.a
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -172,7 +172,7 @@ test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_i
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -195,7 +195,7 @@ test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librcpputils.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librcutils.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -224,14 +224,14 @@ test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupp
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -240,7 +240,7 @@ test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -269,14 +269,14 @@ test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupp
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
-test_mocap4r2_vicon_driver: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
+test_mocap4r2_vicon_driver: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 test_mocap4r2_vicon_driver: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -291,7 +291,7 @@ test_mocap4r2_vicon_driver: /usr/lib/aarch64-linux-gnu/libboost_atomic.so.1.83.0
 test_mocap4r2_vicon_driver: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.83.0
 test_mocap4r2_vicon_driver: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.83.0
 test_mocap4r2_vicon_driver: CMakeFiles/test_mocap4r2_vicon_driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_mocap4r2_vicon_driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_mocap4r2_vicon_driver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_mocap4r2_vicon_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -303,6 +303,6 @@ CMakeFiles/test_mocap4r2_vicon_driver.dir/clean:
 .PHONY : CMakeFiles/test_mocap4r2_vicon_driver.dir/clean
 
 CMakeFiles/test_mocap4r2_vicon_driver.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver /home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver /home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver /home/strain-drone/Documents/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles/test_mocap4r2_vicon_driver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver/CMakeFiles/test_mocap4r2_vicon_driver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test_mocap4r2_vicon_driver.dir/depend
 

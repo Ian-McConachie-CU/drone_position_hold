@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/jazzy/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

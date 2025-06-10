@@ -1,8 +1,8 @@
-# Install script for directory: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+# Install script for directory: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs")
+  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_marker_viz_srvs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_marker_viz_srvs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so")
     file(RPATH_CHANGE
@@ -90,7 +90,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -100,12 +100,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so")
@@ -117,7 +117,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.h$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -127,12 +127,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so")
@@ -150,12 +150,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so")
@@ -167,11 +167,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -181,12 +181,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so")
@@ -198,7 +198,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -208,12 +208,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so")
@@ -231,12 +231,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so")
@@ -248,26 +248,26 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_python/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_python/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs.egg-info/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE DIRECTORY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs"
+        "/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs"
       )
 endif()
 
@@ -278,12 +278,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so")
@@ -292,7 +292,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -302,12 +302,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so")
@@ -316,7 +316,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -326,12 +326,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs" TYPE MODULE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so")
@@ -340,7 +340,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -350,12 +350,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so"
-         OLD_RPATH "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
+         OLD_RPATH "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so")
@@ -367,27 +367,27 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/srv" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz_srvs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz_srvs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz_srvs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz_srvs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -395,7 +395,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -403,38 +403,38 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/environment" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/packages/mocap4r2_marker_viz_srvs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_index/share/ament_index/resource_index/packages/mocap4r2_marker_viz_srvs")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-*.cmake")
       if(_cmake_old_config_files)
@@ -447,9 +447,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -457,7 +457,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-*.cmake")
       if(_cmake_old_config_files)
@@ -470,9 +470,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -480,7 +480,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-*.cmake")
       if(_cmake_old_config_files)
@@ -493,9 +493,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -503,7 +503,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-*.cmake")
       if(_cmake_old_config_files)
@@ -516,9 +516,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-noconfig.cmake")
   endif()
 endif()
 
@@ -526,7 +526,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport-*.cmake")
       if(_cmake_old_config_files)
@@ -539,14 +539,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-*.cmake")
       if(_cmake_old_config_files)
@@ -559,9 +559,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -569,7 +569,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-*.cmake")
       if(_cmake_old_config_files)
@@ -582,9 +582,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -592,7 +592,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-*.cmake")
       if(_cmake_old_config_files)
@@ -605,9 +605,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-noconfig.cmake")
   endif()
 endif()
 
@@ -615,7 +615,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake"
-         "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake")
+         "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-*.cmake")
       if(_cmake_old_config_files)
@@ -628,54 +628,54 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/Export/4de06e5e03557030b39ab463a016f393/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs/cmake" TYPE FILE FILES
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_core/mocap4r2_marker_viz_srvsConfig.cmake"
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_core/mocap4r2_marker_viz_srvsConfig-version.cmake"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_core/mocap4r2_marker_viz_srvsConfig.cmake"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_core/mocap4r2_marker_viz_srvsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mocap4r2_marker_viz_srvs" TYPE FILE FILES "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/cmake_install.cmake")
+  include("/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/cmake_install.cmake")
 
 endif()
 
@@ -687,5 +687,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

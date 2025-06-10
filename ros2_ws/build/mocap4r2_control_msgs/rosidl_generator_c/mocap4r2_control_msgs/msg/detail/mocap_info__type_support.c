@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "mocap4r2_control_msgs/msg/detail/mocap_info__type_support.h"
-#include "mocap4r2_control_msgs/msg/detail/mocap_info__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "mocap4r2_control_msgs/msg/detail/mocap_info__struct.h"
+#include "mocap4r2_control_msgs/msg/detail/mocap_info__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "mocap4r2_control_msgs/msg/detail/mocap_info__functions.h"
 
 #ifdef __cplusplus
 extern "C"

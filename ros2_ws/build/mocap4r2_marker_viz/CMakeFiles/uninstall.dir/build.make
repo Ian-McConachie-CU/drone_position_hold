@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mocap4r2_control.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/mocap4r2_control.dir/progress.make
 include CMakeFiles/mocap4r2_control.dir/flags.make
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o: CMakeFiles/mocap4r2_control.dir/flags.make
-CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp
+CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o: CMakeFiles/mocap4r2_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o -c /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o -c /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.i
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControlledLifecycleNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.s
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o: CMakeFiles/mocap4r2_control.dir/flags.make
-CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp
+CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o: CMakeFiles/mocap4r2_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o -c /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o -c /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.i
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/ControllerNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.s
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o: CMakeFiles/mocap4r2_control.dir/flags.make
-CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp
+CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o: CMakeFiles/mocap4r2_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o -c /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o -MF CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o.d -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o -c /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp > CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.i
 
 CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/src/mocap4r2_control/AuxiliarNode.cpp -o CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.s
 
 # Object files for target mocap4r2_control
 mocap4r2_control_OBJECTS = \
@@ -125,12 +125,12 @@ libmocap4r2_control.so: CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/Con
 libmocap4r2_control.so: CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o
 libmocap4r2_control.so: CMakeFiles/mocap4r2_control.dir/build.make
 libmocap4r2_control.so: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/librclcpp.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -186,8 +186,8 @@ libmocap4r2_control.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_i
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
-libmocap4r2_control.so: /home/strain-drone/Documents/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
+libmocap4r2_control.so: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -223,7 +223,7 @@ libmocap4r2_control.so: /opt/ros/jazzy/lib/librcpputils.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmocap4r2_control.so: /opt/ros/jazzy/lib/librcutils.so
 libmocap4r2_control.so: CMakeFiles/mocap4r2_control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmocap4r2_control.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmocap4r2_control.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mocap4r2_control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +235,6 @@ CMakeFiles/mocap4r2_control.dir/clean:
 .PHONY : CMakeFiles/mocap4r2_control.dir/clean
 
 CMakeFiles/mocap4r2_control.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/CMakeFiles/mocap4r2_control.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/CMakeFiles/mocap4r2_control.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_control.dir/depend
 

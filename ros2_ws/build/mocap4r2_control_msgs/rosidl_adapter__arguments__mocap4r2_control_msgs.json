@@ -1,7 +1,7 @@
 {
   "package_name": "mocap4r2_control_msgs",
   "non_idl_tuples": [
-    "/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs:msg/Control.msg",
-    "/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs:msg/MocapInfo.msg"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs:msg/Control.msg",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs:msg/MocapInfo.msg"
   ]
 }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
 
 # Utility rule file for mocap4r2_marker_viz_srvs.
 
@@ -66,8 +66,8 @@ include CMakeFiles/mocap4r2_marker_viz_srvs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/mocap4r2_marker_viz_srvs.dir/progress.make
 
-CMakeFiles/mocap4r2_marker_viz_srvs: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv
-CMakeFiles/mocap4r2_marker_viz_srvs: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv
+CMakeFiles/mocap4r2_marker_viz_srvs: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv
+CMakeFiles/mocap4r2_marker_viz_srvs: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv
 CMakeFiles/mocap4r2_marker_viz_srvs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/mocap4r2_marker_viz_srvs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/mocap4r2_marker_viz_srvs: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -113,6 +113,6 @@ CMakeFiles/mocap4r2_marker_viz_srvs.dir/clean:
 .PHONY : CMakeFiles/mocap4r2_marker_viz_srvs.dir/clean
 
 CMakeFiles/mocap4r2_marker_viz_srvs.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_marker_viz_srvs.dir/depend
 

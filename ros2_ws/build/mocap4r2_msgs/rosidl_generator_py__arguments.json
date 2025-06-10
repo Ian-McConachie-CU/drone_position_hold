@@ -1,13 +1,13 @@
 {
   "package_name": "mocap4r2_msgs",
-  "output_dir": "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_generator_py/mocap4r2_msgs",
+  "output_dir": "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_generator_py/mocap4r2_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Marker.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Markers.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/ImusInfo.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBody.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBodies.idl"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Marker.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Markers.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/ImusInfo.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBody.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBodies.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -89,11 +89,11 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/Marker.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/Markers.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/ImusInfo.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/RigidBody.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/RigidBodies.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/Marker.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/Markers.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/ImusInfo.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/RigidBody.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs/msg/RigidBodies.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",

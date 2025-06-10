@@ -1,5 +1,5 @@
 CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o: \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/src/mocap4r2_marker_viz_main.cpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/src/mocap4r2_marker_viz_main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
@@ -170,7 +170,7 @@ CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include/mocap4r2_marker_viz/mocap4r2_marker_viz_node.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include/mocap4r2_marker_viz/mocap4r2_marker_viz_node.hpp \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
@@ -729,27 +729,27 @@ CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o: \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
  /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__type_support.hpp \
@@ -761,16 +761,16 @@ CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__traits.hpp \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__builder.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__traits.hpp \
- /home/strain-drone/Documents/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.hpp
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__builder.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__traits.hpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.hpp

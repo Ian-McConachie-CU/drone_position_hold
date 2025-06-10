@@ -1,9 +1,9 @@
 {
   "package_name": "mocap4r2_robot_gt_msgs",
-  "output_dir": "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_cpp/mocap4r2_robot_gt_msgs",
+  "output_dir": "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_cpp/mocap4r2_robot_gt_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_adapter/mocap4r2_robot_gt_msgs:srv/SetGTOrigin.idl"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_adapter/mocap4r2_robot_gt_msgs:srv/SetGTOrigin.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -92,7 +92,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_adapter/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_adapter/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -160,6 +160,6 @@
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
   ],
   "type_description_tuples": [
-    "srv/SetGTOrigin.idl:/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_type_description/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.json"
+    "srv/SetGTOrigin.idl:/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_type_description/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.json"
   ]
 }

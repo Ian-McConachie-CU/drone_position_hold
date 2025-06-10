@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.h"
 #include "mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.h"
+#include "mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.h"
 #include "mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 

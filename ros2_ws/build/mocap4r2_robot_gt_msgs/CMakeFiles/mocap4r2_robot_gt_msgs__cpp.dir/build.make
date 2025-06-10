@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs
 
 # Utility rule file for mocap4r2_robot_gt_msgs__cpp.
 
@@ -158,8 +158,8 @@ rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp: /opt/ros/jazz
 rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__builder.hpp: rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__builder.hpp
@@ -195,6 +195,6 @@ CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/clean
 
 CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_robot_gt_msgs/CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs/CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_robot_gt_msgs__cpp.dir/depend
 

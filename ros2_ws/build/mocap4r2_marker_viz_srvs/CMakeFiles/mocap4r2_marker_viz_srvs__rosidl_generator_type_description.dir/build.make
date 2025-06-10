@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
 
 # Utility rule file for mocap4r2_marker_viz_srvs__rosidl_generator_type_description.
 
@@ -73,8 +73,8 @@ rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.js
 rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json: rosidl_adapter/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl
 rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json: rosidl_adapter/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json: rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json
@@ -94,6 +94,6 @@ CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/clean
 .PHONY : CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_type_description.dir/depend
 

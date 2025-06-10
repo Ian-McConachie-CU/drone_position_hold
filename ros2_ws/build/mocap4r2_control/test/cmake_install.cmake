@@ -1,8 +1,8 @@
-# Install script for directory: /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/test
+# Install script for directory: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/ros2_ws/install/mocap4r2_control")
+  set(CMAKE_INSTALL_PREFIX "/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/strain-drone/Documents/ros2_ws/build/mocap4r2_control/gtest/cmake_install.cmake")
+  include("/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control/gtest/cmake_install.cmake")
 
 endif()
 

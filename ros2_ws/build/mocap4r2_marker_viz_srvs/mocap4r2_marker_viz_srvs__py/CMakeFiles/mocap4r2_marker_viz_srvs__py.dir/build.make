@@ -53,27 +53,27 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
 
 # Utility rule file for mocap4r2_marker_viz_srvs__py.
 
 # Include any custom commands dependencies for this target.
-include /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/compiler_depend.make
+include /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/progress.make
+include /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/progress.make
 
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/__init__.py
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/__init__.py
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
 
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -123,8 +123,8 @@ rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosi
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
@@ -147,7 +147,7 @@ rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c: rosidl_g
 rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
 
-mocap4r2_marker_viz_srvs__py: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py
+mocap4r2_marker_viz_srvs__py: /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
@@ -156,18 +156,18 @@ mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
 mocap4r2_marker_viz_srvs__py: rosidl_generator_py/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
-mocap4r2_marker_viz_srvs__py: /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build.make
+mocap4r2_marker_viz_srvs__py: /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build.make
 .PHONY : mocap4r2_marker_viz_srvs__py
 
 # Rule to build all files generated by this target.
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build: mocap4r2_marker_viz_srvs__py
-.PHONY : /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build: mocap4r2_marker_viz_srvs__py
+.PHONY : /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/build
 
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/clean:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py && $(CMAKE_COMMAND) -P CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/cmake_clean.cmake
-.PHONY : /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/clean
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/clean:
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py && $(CMAKE_COMMAND) -P CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/cmake_clean.cmake
+.PHONY : /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/clean
 
-/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/depend
+/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/depend:
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py/CMakeFiles/mocap4r2_marker_viz_srvs__py.dir/depend
 

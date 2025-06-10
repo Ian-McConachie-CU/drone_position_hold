@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.h"
 #include "mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.h"
 #include "mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -4,6 +4,7 @@ import rclpy
 from rclpy.node import Node
 from scipy.spatial.transform import Rotation as R
 from geometry_msgs.msg import PoseStamped
+from mocap4r2_msgs.msg import RigidBodies
 
 '''
 1. subscribe to appropriate vicon topic
@@ -16,51 +17,20 @@ class vicon2mavlink_bridge(Node):
     def __init__(self, mavlink_connection_string):
         super().__init__('vicon_subscriber')
         self.subscription = self.create_subscription(
-            PoseStamped,
-            'topic', #enter vicon topic name here
+            RigidBodies,
+            'rigid_bodies', #enter vicon topic name here
             self.subscriber_callback,
             10)
         self.subscription  # prevent unused variable warning
         
         self.mavlink_master = mavutil.mavlink_connection(mavlink_connection_string)
         self.mavlink_master.wait_heartbeat()
-        
-    def send_global_vision_position_estimate(time_usec, 
-                                             x, 
-                                             y, 
-                                             z, 
-                                             roll, 
-                                             pitch, 
-                                             yaw, 
-                                             covariance = None,
-                                             reset_counter = 0):
-        """
-        Sends a GLOBAL_VISION_POSITION_ESTIMATE message.
-        
-        Parameters:
-        - time_usec: Timestamp (microseconds, synced to UNIX epoch or system boot)
-        - x, y, z: Global position in meters (NED frame)
-        - roll, pitch, yaw: Attitude angles in radians
-        """
-        
-        self.mavlink_master.mav.global_vision_position_estimate_send(
-            usec=usec,           # Timestamp (microseconds)
-            x=x,                 # Global X position
-            y=y,                 # Global Y position  
-            z=z,                 # Global Z position
-            roll=roll,           # Roll angle
-            pitch=pitch,         # Pitch angle
-            yaw=yaw,             # Yaw angle
-            covariance=covariance,  # Covariance matrix
-            reset_counter=reset_counter  # Reset counter
-        )
-
-        print(f"Sent GLOBAL_VISION_POSITION_ESTIMATE at time {time_usec}")
-        
 
     def subscriber_callback(self, msg):
         
         #unpack msg here  
+        rigid_body = msg[]
+        
         x = msg.data.position.x   # meters North
         y = msg.data.position.y   # meters East
         z = msg.data.position.z   # meters Down (negative means above reference)
@@ -97,6 +67,39 @@ class vicon2mavlink_bridge(Node):
         
         self.send_global_vision_position_estimate(time_usec, x, y, z, roll, pitch, yaw)            
     
+        
+    def send_global_vision_position_estimate(time_usec, 
+                                             x, 
+                                             y, 
+                                             z, 
+                                             roll, 
+                                             pitch, 
+                                             yaw, 
+                                             covariance = None,
+                                             reset_counter = 0):
+        """
+        Sends a GLOBAL_VISION_POSITION_ESTIMATE message.
+        
+        Parameters:
+        - time_usec: Timestamp (microseconds, synced to UNIX epoch or system boot)
+        - x, y, z: Global position in meters (NED frame)
+        - roll, pitch, yaw: Attitude angles in radians
+        """
+        
+        self.mavlink_master.mav.global_vision_position_estimate_send(
+            usec=usec,           # Timestamp (microseconds)
+            x=x,                 # Global X position
+            y=y,                 # Global Y position  
+            z=z,                 # Global Z position
+            roll=roll,           # Roll angle
+            pitch=pitch,         # Pitch angle
+            yaw=yaw,             # Yaw angle
+            covariance=covariance,  # Covariance matrix
+            reset_counter=reset_counter  # Reset counter
+        )
+
+        print(f"Sent GLOBAL_VISION_POSITION_ESTIMATE at time {time_usec}")
+        
 def main(args=None):
     
     rclpy.init(args=args)

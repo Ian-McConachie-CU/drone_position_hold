@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include -I/opt/ros/jazzy/src/gtest_vendor/. -isystem /opt/ros/jazzy/src/gtest_vendor/include
+CXX_INCLUDES = -I/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include -I/opt/ros/jazzy/src/gtest_vendor/. -isystem /opt/ros/jazzy/src/gtest_vendor/include
 
 CXX_FLAGS = -std=gnu++14 -fPIC -Wno-missing-field-initializers -Wall -Wextra -Wpedantic -Wno-null-dereference
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs
 
 # Utility rule file for ament_cmake_python_copy_mocap4r2_control_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/compiler_de
 include CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs:
-	/usr/bin/cmake -E copy_directory /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/rosidl_generator_py/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/ament_cmake_python/mocap4r2_control_msgs/mocap4r2_control_msgs
+	/usr/bin/cmake -E copy_directory /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/rosidl_generator_py/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/ament_cmake_python/mocap4r2_control_msgs/mocap4r2_control_msgs
 
 ament_cmake_python_copy_mocap4r2_control_msgs: CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs
 ament_cmake_python_copy_mocap4r2_control_msgs: CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_control_msgs/CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_control_msgs/CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_mocap4r2_control_msgs.dir/depend
 

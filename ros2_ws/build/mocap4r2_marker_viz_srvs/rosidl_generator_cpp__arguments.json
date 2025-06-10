@@ -1,10 +1,10 @@
 {
   "package_name": "mocap4r2_marker_viz_srvs",
-  "output_dir": "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_cpp/mocap4r2_marker_viz_srvs",
+  "output_dir": "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_cpp/mocap4r2_marker_viz_srvs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/SetMarkerColor.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/ResetMarkerColor.idl"
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/SetMarkerColor.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs:srv/ResetMarkerColor.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -61,8 +61,8 @@
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl",
-    "/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl",
+    "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_adapter/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -98,7 +98,7 @@
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl"
   ],
   "type_description_tuples": [
-    "srv/SetMarkerColor.idl:/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json",
-    "srv/ResetMarkerColor.idl:/home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json"
+    "srv/SetMarkerColor.idl:/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json",
+    "srv/ResetMarkerColor.idl:/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_type_description/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json"
   ]
 }

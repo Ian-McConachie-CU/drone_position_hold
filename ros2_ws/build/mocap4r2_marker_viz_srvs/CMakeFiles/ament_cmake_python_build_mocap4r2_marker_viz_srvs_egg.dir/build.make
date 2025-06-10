@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
 
 # Utility rule file for ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/com
 include CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_python/mocap4r2_marker_viz_srvs && /usr/bin/python3 setup.py egg_info
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_python/mocap4r2_marker_viz_srvs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg: CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg
 ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg: CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/depend:
-	cd /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg.dir/depend
 

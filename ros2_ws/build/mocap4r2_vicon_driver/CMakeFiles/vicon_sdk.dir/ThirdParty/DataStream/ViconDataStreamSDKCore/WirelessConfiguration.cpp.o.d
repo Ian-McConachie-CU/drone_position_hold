@@ -1,7 +1,7 @@
 CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o: \
- /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp \
  /usr/include/stdc-predef.h \
- /home/strain-drone/Documents/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.h \
+ /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \

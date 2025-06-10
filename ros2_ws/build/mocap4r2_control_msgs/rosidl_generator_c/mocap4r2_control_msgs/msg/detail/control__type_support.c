@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "mocap4r2_control_msgs/msg/detail/control__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "mocap4r2_control_msgs/msg/detail/control__struct.h"
 #include "mocap4r2_control_msgs/msg/detail/control__type_support.h"
+#include "mocap4r2_control_msgs/msg/detail/control__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

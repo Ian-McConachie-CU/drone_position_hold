@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2_msgs
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/CMakeFiles /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/CMakeFiles /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ mocap4r2_msgs__py: cmake_check_build_system
 
 # fast build rule for target.
 mocap4r2_msgs__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/mocap4r2_msgs__py/CMakeFiles/mocap4r2_msgs__py.dir/build.make /home/strain-drone/Documents/ros2_ws/build/mocap4r2_msgs/mocap4r2_msgs__py/CMakeFiles/mocap4r2_msgs__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/mocap4r2_msgs__py/CMakeFiles/mocap4r2_msgs__py.dir/build.make /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_msgs/mocap4r2_msgs__py/CMakeFiles/mocap4r2_msgs__py.dir/build
 .PHONY : mocap4r2_msgs__py/fast
 
 rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__description.o: rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__description.c.o

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/strain-drone/Documents/ros2_ws/src/mocap4r2/mocap4r2_dummy_driver
+CMAKE_SOURCE_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_dummy_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver
+CMAKE_BINARY_DIR = /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_dummy_driver
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver/CMakeFiles /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_dummy_driver/CMakeFiles /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_dummy_driver//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/ros2_ws/build/mocap4r2_dummy_driver/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_dummy_driver/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
