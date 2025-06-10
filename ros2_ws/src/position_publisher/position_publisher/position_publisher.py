@@ -102,32 +102,16 @@ class vicon2mavlink_bridge(Node):
 
 
 def main(args=None): # this needs to be updated
+    
     rclpy.init(args=args)
     
     mavlink_connection_string = 'udpout:127.0.0.1:14550'
     bridge = vicon2mavlink_bridge(mavlink_connection_string)
     
-    # Create the position publisher node
-    position_publisher = PositionPublisher()
-    
-    try:
-        # Wait for MAVROS connection
-        while rclpy.ok() and not position_publisher.current_state.connected:
-            rclpy.spin_once(position_publisher, timeout_sec=0.1)
-            position_publisher.get_logger().info('Waiting for MAVROS connection...')
-            time.sleep(1)
-            
-        position_publisher.get_logger().info('MAVROS connected!')
-        position_publisher.get_logger().info('Publishing position data at origin (0,0,0)...')
-        
-        # Continue spinning - just publishes origin position continuously
-        rclpy.spin(position_publisher)
-        
-    except KeyboardInterrupt:
-        position_publisher.get_logger().info('Shutting down position publisher...')
-    finally:
-        position_publisher.destroy_node()
-        rclpy.shutdown()
+    rclpy.spin(bridge)
+
+    bridge.destroy_node()
+    rclpy.shutdown()
 
 
 if __name__ == '__main__':
