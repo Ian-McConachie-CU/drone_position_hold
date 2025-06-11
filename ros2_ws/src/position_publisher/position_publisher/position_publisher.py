@@ -26,17 +26,50 @@ class vicon2mavlink_bridge(Node):
         self.mavlink_master = mavutil.mavlink_connection(mavlink_connection_string)
         self.mavlink_master.wait_heartbeat()
 
+    def unpack_rigid_body(self, rigid_body, index):
+        """Unpack individual rigid body data"""
+        
+        print(f"\n--- Rigid Body {index} ---")
+        print(f"Body ID: {rigid_body.rigid_body_name}")
+        
+        # Position data
+        pos = rigid_body.pose.position
+        print(f"Position: x={pos.x:.3f}, y={pos.y:.3f}, z={pos.z:.3f}")
+        
+        # Orientation (quaternion)
+        orient = rigid_body.pose.orientation
+        print(f"Orientation (quat): x={orient.x:.3f}, y={orient.y:.3f}, z={orient.z:.3f}, w={orient.w:.3f}")
+        
+        # Convert quaternion to Euler angles (optional)
+        roll, pitch, yaw = self.quaternion_to_euler(orient)
+        print(f"Orientation (euler): roll={math.degrees(roll):.1f}°, pitch={math.degrees(pitch):.1f}°, yaw={math.degrees(yaw):.1f}°")
+        
+        # Markers (if available)
+        if hasattr(rigid_body, 'markers') and rigid_body.markers:
+            print(f"Number of markers: {len(rigid_body.markers)}")
+            for j, marker in enumerate(rigid_body.markers):
+                print(f"  Marker {j}: x={marker.translation.x:.3f}, y={marker.translation.y:.3f}, z={marker.translation.z:.3f}")
+
+
     def subscriber_callback(self, msg):
         
         #unpack msg here  
-        rigid_body = msg[]
+
+        for rigid_body in msg.data.RigidBodies:
+            if rigid_body.rigid_body_name == "bprl_drone":
+                break
         
-        x = msg.data.position.x   # meters North
-        y = msg.data.position.y   # meters East
-        z = msg.data.position.z   # meters Down (negative means above reference)
-        quat  = msg.data.orientation #assuming this is an array, otherwise cast as below:
-        quaternion = np.array([quat.x, quat.y, quat.z, quat.w])
-        
+        x = rigid_body.pose.position.x
+        y = rigid_body.pose.position.y
+        z = rigid_body.pose.position.z
+
+        qx = rigid_body.pose.orientation.x
+        qy = rigid_body.pose.orientation.y
+        qz = rigid_body.pose.orientation.z
+        qw = rigid_body.pose.orientation.w
+
+        quaternion = np.array([qx, qy, qz, qw])
+
         rotation = R.from_quat(quaternion, scalar_last = True) # scalar last tells from_quat that w is listed last  
         euler_angles = rotation.as_euler('zyx', degrees=False) 
         # needs to be in radians. See:
@@ -44,6 +77,7 @@ class vicon2mavlink_bridge(Node):
         
         # appears that rotation order is z-y-x:
         # https://mavsdk.mavlink.io/v1.4/en/cpp/api_reference/structmavsdk_1_1_camera_1_1_euler_angle.html
+
         
         roll = euler_angles[0]
         pitch = euler_angles[1]
