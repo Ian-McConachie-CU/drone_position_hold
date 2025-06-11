@@ -93,9 +93,9 @@ class vicon2mavlink_bridge(Node):
         x = y
         y = x
         z = -z
-        roll = roll
-        pitch = pitch
-        yaw = yaw
+        roll = pitch
+        pitch = roll
+        yaw = -yaw
         
         time_usec = int(time.time() * 1e6)
         
