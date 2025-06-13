@@ -34,11 +34,13 @@ class vicon2mavlink_bridge(Node):
     def subscriber_callback(self, msg):
         
         #unpack msg here  
+        #  "bprl_drone.bprl_drone"
+        # "Wand.Wand"
 
         for rigid_body in msg.rigidbodies:
             if rigid_body.rigid_body_name == "bprl_drone.bprl_drone":
-                break
-        
+                break     
+
         x = rigid_body.pose.position.x
         y = rigid_body.pose.position.y
         z = rigid_body.pose.position.z
@@ -50,8 +52,20 @@ class vicon2mavlink_bridge(Node):
 
         quaternion = np.array([qx, qy, qz, qw])
 
-        # rotation = R.from_quat(quaternion, scalar_first = False) # scalar last tells from_quat that w is listed last  
-        # euler_angles = rotation.as_euler('zyx', degrees=False) 
+        quat_norm = np.linalg.norm(quaternion)
+        
+        if x == y == z == qx == qy == qz == qw == 0.0:
+            self.get_logger().warn("Lost mocap data")
+            return
+        
+        if quat_norm < 1e-6:  # Very small norm indicates invalid quaternion
+            self.get_logger().warn(f"Invalid quaternion with norm {quat_norm:.6f}, skipping this message")
+            return
+        quaternion = quaternion / quat_norm
+
+        rotation = R.from_quat(quaternion) # scalar last tells from_quat that w is listed last  
+        euler_angles = rotation.as_euler('ZYX', degrees=False) 
+
         # needs to be in radians. See:
         # https://mavlink.io/en/messages/common.html    
         
@@ -59,13 +73,13 @@ class vicon2mavlink_bridge(Node):
         # https://mavsdk.mavlink.io/v1.4/en/cpp/api_reference/structmavsdk_1_1_camera_1_1_euler_angle.html
 
         
-        # roll = euler_angles[0]
-        # pitch = euler_angles[1]
-        # yaw =  euler_angles[2]
+        roll = euler_angles[0]
+        pitch = euler_angles[1]
+        yaw =  euler_angles[2]
 
-        roll = 0
-        pitch = 0
-        yaw = 0
+        # roll = 0
+        # pitch = 0
+        # yaw = 0
         
         '''
         FRAME CONVERSION FROM MOCAP TO NED
@@ -117,18 +131,13 @@ class vicon2mavlink_bridge(Node):
         #    yaw=yaw,             # Yaw angle
         #)
         covariance = [
-            0.01, 0.0, 0.0, 0.0, 0.0, 0.0,    # x position - low noise
-            0.0, 0.01, 0.0, 0.0, 0.0, 0.0,    # y position - low noise  
-            0.0, 0.0, 0.01, 0.0, 0.0, 0.0,    # z position - low noise
+            0.0001, 0.0, 0.0, 0.0, 0.0, 0.0,    # x position - low noise
+            0.0, 0.0001, 0.0, 0.0, 0.0, 0.0,    # y position - low noise  
+            0.0, 0.0, 0.0001, 0.0, 0.0, 0.0,    # z position - low noise
             0.0, 0.0, 0.0, 999.0, 0.0, 0.0,   # roll - high noise (ignore)
             0.0, 0.0, 0.0, 0.0, 999.0, 0.0,   # pitch - high noise (ignore)
-            0.0, 0.0, 0.0, 0.0, 0.0, 999.0,
-            0.01, 0.0, 0.0, 0.0, 0.0, 0.0,    # x position - low noise
-            0.0, 0.01, 0.0, 0.0, 0.0, 0.0,    # y position - low noise  
-            0.0, 0.0, 0.01, 0.0, 0.0, 0.0,    # z position - low noise
-            0.0, 0.0, 0.0, 999.0, 0.0, 0.0,   # roll - high noise (ignore)
-            0.0, 0.0, 0.0, 0.0, 999.0, 0.0,   # pitch - high noise (ignore)
-            0.0, 0.0, 0.0, 0.0, 0.0, 999.0    #  999.0    # yaw - high noise (ignore)
+            0.0, 0.0, 0.0, 0.0, 0.0, 0.02,
+
         ]
         self.mavlink_master.mav.vision_position_estimate_send(
             usec=time_usec,
