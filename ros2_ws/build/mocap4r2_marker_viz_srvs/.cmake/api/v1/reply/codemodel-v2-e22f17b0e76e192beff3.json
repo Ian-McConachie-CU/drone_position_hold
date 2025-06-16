@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cf4776031854542e1e51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mocap4r2_marker_viz_srvs__py",
+					"jsonFile" : "directory-mocap4r2_marker_viz_srvs__py-ed78e2ff3493146e9ae1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mocap4r2_marker_viz_srvs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg-6e17186b86b2f28a10c0.json",
+					"name" : "ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mocap4r2_marker_viz_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mocap4r2_marker_viz_srvs-ca487d86e8d48a790977.json",
+					"name" : "ament_cmake_python_copy_mocap4r2_marker_viz_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs-6f1eb28be42f1ebe42f2.json",
+					"name" : "mocap4r2_marker_viz_srvs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__cpp-685089de0ecb3230cefa.json",
+					"name" : "mocap4r2_marker_viz_srvs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mocap4r2_marker_viz_srvs__py::@55f064cd3e33314b501c",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__py-d37992dd717d7d7a30f4.json",
+					"name" : "mocap4r2_marker_viz_srvs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_generator_c-3bbcf9a94ba587eb7020.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_generator_py-5813a07d90fa14040ac5.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_generator_type_description-026c5d7a6326e78a0609.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_c-995279c2fab412a41525.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp-41f5c1a8d555fdc15509.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c-b819221f5eb09891c795.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp-0eda73d3ad840d156e64.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c-5399da459a6945e5d4be.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp-802ea85dc60bf6ccaa23.json",
+					"name" : "mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c-62e8dd53dda6e0a67f65.json",
+					"name" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c-97206cefd7aad998625b.json",
+					"name" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c-dbdf19b937e48816d432.json",
+					"name" : "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_marker_viz_srvs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_marker_viz_srvs_uninstall-5beb559f919ebf4a8fb1.json",
+					"name" : "mocap4r2_marker_viz_srvs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9f03f6c1673cf785a49b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs",
+		"source" : "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

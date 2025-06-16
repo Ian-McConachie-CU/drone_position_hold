@@ -1,0 +1,2 @@
+[console_scripts]
+run_visualizer = visualizer.run_visualizer:main

@@ -1,0 +1,24 @@
+[4.444s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/visualizer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualizer build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log --single-version-externally-managed install_data
+[6.716s] running egg_info
+[6.936s] writing ../../build/visualizer/visualizer.egg-info/PKG-INFO
+[6.949s] writing dependency_links to ../../build/visualizer/visualizer.egg-info/dependency_links.txt
+[6.950s] writing entry points to ../../build/visualizer/visualizer.egg-info/entry_points.txt
+[6.958s] writing requirements to ../../build/visualizer/visualizer.egg-info/requires.txt
+[6.958s] writing top-level names to ../../build/visualizer/visualizer.egg-info/top_level.txt
+[7.240s] reading manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[7.243s] writing manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[7.244s] running build
+[7.244s] running build_py
+[7.244s] copying visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer
+[7.248s] running install
+[7.276s] running install_lib
+[7.473s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer
+[7.488s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer/run_visualizer.py to run_visualizer.cpython-312.pyc
+[7.491s] running install_data
+[7.491s] running install_egg_info
+[7.793s] removing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info' (and everything under it)
+[7.795s] Copying ../../build/visualizer/visualizer.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info
+[7.807s] running install_scripts
+[9.039s] Installing run_visualizer script to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/visualizer
+[9.164s] writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log'
+[9.524s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/visualizer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualizer build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log --single-version-externally-managed install_data

@@ -1,0 +1,175 @@
+[0.045s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs -- -j4 -l4
+[0.274s] [  2%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_type_description
+[0.297s] [  2%] Built target ament_cmake_python_copy_mocap4r2_marker_viz_srvs
+[0.426s] [ 20%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_c
+[0.487s] [ 22%] Built target mocap4r2_marker_viz_srvs__cpp
+[0.592s] [ 31%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c
+[0.633s] [ 40%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c
+[0.737s] [ 50%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_c
+[0.900s] [ 59%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp
+[0.938s] [ 68%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp
+[0.946s] [ 77%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp
+[1.130s] [ 77%] Built target mocap4r2_marker_viz_srvs
+[1.298s] [ 79%] Built target mocap4r2_marker_viz_srvs__py
+[1.464s] [ 86%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_py
+[1.673s] [ 90%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c
+[1.692s] [ 95%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c
+[1.781s] [100%] Built target mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c
+[1.972s] running egg_info
+[2.009s] writing mocap4r2_marker_viz_srvs.egg-info/PKG-INFO
+[2.010s] writing dependency_links to mocap4r2_marker_viz_srvs.egg-info/dependency_links.txt
+[2.012s] writing top-level names to mocap4r2_marker_viz_srvs.egg-info/top_level.txt
+[2.141s] reading manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[2.144s] writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'
+[2.315s] [100%] Built target ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg
+[2.401s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs -- -j4 -l4
+[2.425s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs
+[2.482s] -- Install configuration: ""
+[2.488s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_marker_viz_srvs
+[2.488s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.json
+[2.489s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.json
+[2.489s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.490s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.491s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.491s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.c
+[2.491s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.h
+[2.491s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.h
+[2.494s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c
+[2.494s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.h
+[2.517s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.h
+[2.517s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.h
+[2.518s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.c
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__description.c
+[2.518s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.h
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.h
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.h
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[2.518s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_c__visibility_control.h
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.sh
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/library_path.dsv
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_c.so
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_c.h
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_c.h
+[2.519s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[2.520s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.520s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.so
+[2.520s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.520s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.521s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.521s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_c.h
+[2.521s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_c.h
+[2.523s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c
+[2.523s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c
+[2.530s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[2.530s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.530s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so
+[2.530s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so
+[2.530s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.531s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.531s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/reset_marker_color.hpp
+[2.531s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/set_marker_color.hpp
+[2.531s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.533s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__struct.hpp
+[2.533s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.hpp
+[2.534s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.hpp
+[2.534s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__traits.hpp
+[2.534s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__struct.hpp
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__builder.hpp
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__traits.hpp
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__builder.hpp
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.535s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.536s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.536s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps
+[2.536s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[2.536s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_fastrtps_cpp.hpp
+[2.538s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg
+[2.539s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.539s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.so
+[2.539s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs
+[2.539s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv
+[2.540s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail
+[2.540s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.cpp
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.cpp
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/include/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__rosidl_typesupport_introspection_cpp.hpp
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.so
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.so
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.sh
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/pythonpath.dsv
+[2.541s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info
+[2.541s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/dependency_links.txt
+[2.542s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/PKG-INFO
+[2.542s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/top_level.txt
+[2.542s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs-0.0.7-py3.12.egg-info/SOURCES.txt
+[2.542s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs
+[2.542s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.542s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[2.545s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv
+[2.546s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color_s.c
+[2.546s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color_s.c
+[2.546s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_reset_marker_color.py
+[2.546s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/__init__.py
+[2.547s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv/_set_marker_color.py
+[2.547s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[2.547s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.547s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/__init__.py
+[2.548s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[2.549s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/_mocap4r2_marker_viz_srvs_s.ep.rosidl_typesupport_c.c
+[2.767s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs'...
+[2.767s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/srv'...
+[2.790s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so
+[2.791s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_introspection_c.so
+[2.801s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_c.so
+[2.801s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/lib/libmocap4r2_marker_viz_srvs__rosidl_generator_py.so
+[2.801s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.idl
+[2.801s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.idl
+[2.802s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/SetMarkerColor.srv
+[2.808s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/srv/ResetMarkerColor.srv
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz_srvs
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz_srvs
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.sh
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/ament_prefix_path.dsv
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.sh
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/environment/path.dsv
+[2.809s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.bash
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.sh
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.zsh
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/local_setup.dsv
+[2.810s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.dsv
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/ament_index/resource_index/packages/mocap4r2_marker_viz_srvs
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport.cmake
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cExport-noconfig.cmake
+[2.810s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.811s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.811s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport.cmake
+[2.811s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.811s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport.cmake
+[2.816s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[2.816s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_cppExport.cmake
+[2.816s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.816s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport.cmake
+[2.818s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/export_mocap4r2_marker_viz_srvs__rosidl_generator_pyExport-noconfig.cmake
+[2.819s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake-extras.cmake
+[2.819s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.819s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.819s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.819s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[2.820s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.821s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.823s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig.cmake
+[2.823s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake/mocap4r2_marker_viz_srvsConfig-version.cmake
+[2.823s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.xml
+[2.882s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_marker_viz_srvs

@@ -1,0 +1,24 @@
+[3.141s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/position_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_publisher build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/install.log --single-version-externally-managed install_data
+[4.827s] running egg_info
+[4.924s] writing ../../build/position_publisher/position_publisher.egg-info/PKG-INFO
+[5.046s] writing dependency_links to ../../build/position_publisher/position_publisher.egg-info/dependency_links.txt
+[5.055s] writing entry points to ../../build/position_publisher/position_publisher.egg-info/entry_points.txt
+[5.056s] writing requirements to ../../build/position_publisher/position_publisher.egg-info/requires.txt
+[5.059s] writing top-level names to ../../build/position_publisher/position_publisher.egg-info/top_level.txt
+[5.477s] reading manifest file '../../build/position_publisher/position_publisher.egg-info/SOURCES.txt'
+[5.479s] writing manifest file '../../build/position_publisher/position_publisher.egg-info/SOURCES.txt'
+[5.480s] running build
+[5.480s] running build_py
+[5.484s] copying position_publisher/position_publisher.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/build/lib/position_publisher
+[5.485s] running install
+[5.524s] running install_lib
+[5.626s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/build/lib/position_publisher/position_publisher.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages/position_publisher
+[5.626s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages/position_publisher/position_publisher.py to position_publisher.cpython-312.pyc
+[5.626s] running install_data
+[5.627s] running install_egg_info
+[5.709s] removing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages/position_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[5.710s] Copying ../../build/position_publisher/position_publisher.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages/position_publisher-0.0.0-py3.12.egg-info
+[5.710s] running install_scripts
+[6.568s] Installing position_publisher script to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/position_publisher
+[6.569s] writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/install.log'
+[6.905s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/position_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/position_publisher build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/position_publisher/install.log --single-version-externally-managed install_data

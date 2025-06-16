@@ -1,0 +1,39 @@
+[ 13%] Built target gtest
+[ 13%] Built target gtest_main
+[ 80%] Built target vicon_sdk
+[ 86%] Built target mocap4r2_vicon_driver
+[ 93%] Built target mocap4r2_vicon_driver_main
+[100%] Built target test_mocap4r2_vicon_driver
+-- Install configuration: ""
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include/
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include//mocap4r2_vicon_driver
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include//mocap4r2_vicon_driver/mocap4r2_vicon_driver.hpp
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch/__pycache__
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch/__pycache__/mocap4r2_vicon_driver_launch.cpython-312.pyc
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch/mocap4r2_vicon_driver_launch.py
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/config
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/config/mocap4r2_vicon_driver_params.yaml
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/mocap4r2_vicon_driver/mocap4r2_vicon_driver_main
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/libmocap4r2_vicon_driver.a
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/libvicon_sdk.so
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/library_path.sh
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/library_path.dsv
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_vicon_driver
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_vicon_driver
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/path.sh
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/path.dsv
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.bash
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.sh
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.zsh
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.dsv
+-- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/package.dsv
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/packages/mocap4r2_vicon_driver
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/mocap4r2_vicon_driverConfig.cmake
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/mocap4r2_vicon_driverConfig-version.cmake
+-- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/package.xml

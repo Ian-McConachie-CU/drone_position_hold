@@ -1,0 +1,152 @@
+[0.059s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs -- -j4 -l4
+[0.244s] [  2%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_type_description
+[0.352s] [  2%] Built target ament_cmake_python_copy_mocap4r2_robot_gt_msgs
+[0.391s] [ 17%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_c
+[0.462s] [ 20%] Built target mocap4r2_robot_gt_msgs__cpp
+[0.546s] [ 29%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c
+[0.571s] [ 38%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c
+[0.778s] [ 47%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_c
+[0.890s] [ 55%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp
+[0.933s] [ 64%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp
+[1.039s] [ 73%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp
+[1.179s] [ 73%] Built target mocap4r2_robot_gt_msgs
+[1.267s] [ 76%] Built target mocap4r2_robot_gt_msgs__py
+[1.377s] [ 82%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_py
+[1.570s] [ 88%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c
+[1.594s] [100%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c
+[1.597s] [100%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c
+[1.881s] running egg_info
+[1.914s] writing mocap4r2_robot_gt_msgs.egg-info/PKG-INFO
+[1.914s] writing dependency_links to mocap4r2_robot_gt_msgs.egg-info/dependency_links.txt
+[1.916s] writing top-level names to mocap4r2_robot_gt_msgs.egg-info/top_level.txt
+[2.049s] reading manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[2.052s] writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[2.174s] [100%] Built target ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg
+[2.215s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs -- -j4 -l4
+[2.216s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs
+[2.263s] -- Install configuration: ""
+[2.264s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_robot_gt_msgs
+[2.264s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.json
+[2.264s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.264s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.268s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/set_gt_origin.h
+[2.268s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.269s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.h
+[2.269s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__description.c
+[2.270s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.c
+[2.271s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c
+[2.271s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.h
+[2.271s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.h
+[2.271s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg
+[2.272s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.272s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/library_path.sh
+[2.272s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/library_path.dsv
+[2.275s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_c.so
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_fastrtps_c.h
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.so
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.276s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.277s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_introspection_c.h
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.so
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_c.so
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.277s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.278s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp
+[2.278s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.278s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.hpp
+[2.278s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.hpp
+[2.278s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__traits.hpp
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__builder.hpp
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.283s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/dds_fastrtps
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_fastrtps_cpp.hpp
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv
+[2.284s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail
+[2.285s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_introspection_cpp.hpp
+[2.285s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.cpp
+[2.285s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.so
+[2.288s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.so
+[2.290s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/pythonpath.sh
+[2.290s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/pythonpath.dsv
+[2.290s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info
+[2.293s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/dependency_links.txt
+[2.294s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/PKG-INFO
+[2.294s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/top_level.txt
+[2.294s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/SOURCES.txt
+[2.295s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs
+[2.295s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.so
+[2.295s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_c.c
+[2.295s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv
+[2.296s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/__init__.py
+[2.296s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/_set_gt_origin_s.c
+[2.296s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/_set_gt_origin.py
+[2.296s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.296s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.297s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.so
+[2.302s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/__init__.py
+[2.302s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.413s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs'...
+[2.414s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv'...
+[2.437s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.437s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.so
+[2.437s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.so
+[2.440s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_py.so
+[2.452s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.idl
+[2.452s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.srv
+[2.452s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_robot_gt_msgs
+[2.452s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_robot_gt_msgs
+[2.452s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/ament_prefix_path.sh
+[2.453s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/ament_prefix_path.dsv
+[2.453s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/path.sh
+[2.453s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/path.dsv
+[2.460s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.bash
+[2.460s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.sh
+[2.461s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.zsh
+[2.461s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.dsv
+[2.464s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.dsv
+[2.464s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/packages/mocap4r2_robot_gt_msgs
+[2.465s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cExport.cmake
+[2.465s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.465s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.466s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.467s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.470s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.471s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cExport.cmake
+[2.472s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.472s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cppExport.cmake
+[2.473s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.474s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.477s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.480s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.484s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cppExport.cmake
+[2.485s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_pyExport.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake-extras.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.486s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.489s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.490s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.490s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgsConfig.cmake
+[2.490s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgsConfig-version.cmake
+[2.490s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.xml
+[2.502s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/position_publisher:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_robot_gt_msgs

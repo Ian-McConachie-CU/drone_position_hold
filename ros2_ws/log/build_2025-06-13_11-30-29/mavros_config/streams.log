@@ -1,0 +1,19 @@
+[10.740s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mavros_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavros_config build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/install.log --single-version-externally-managed install_data
+[16.389s] running egg_info
+[16.857s] writing ../../build/mavros_config/mavros_config.egg-info/PKG-INFO
+[16.871s] writing dependency_links to ../../build/mavros_config/mavros_config.egg-info/dependency_links.txt
+[16.874s] writing requirements to ../../build/mavros_config/mavros_config.egg-info/requires.txt
+[16.877s] writing top-level names to ../../build/mavros_config/mavros_config.egg-info/top_level.txt
+[17.888s] reading manifest file '../../build/mavros_config/mavros_config.egg-info/SOURCES.txt'
+[17.913s] writing manifest file '../../build/mavros_config/mavros_config.egg-info/SOURCES.txt'
+[17.928s] running build
+[17.928s] running build_py
+[17.929s] running install
+[18.043s] running install_lib
+[18.208s] running install_data
+[18.212s] running install_egg_info
+[18.319s] removing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config/lib/python3.12/site-packages/mavros_config-0.0.0-py3.12.egg-info' (and everything under it)
+[18.328s] Copying ../../build/mavros_config/mavros_config.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config/lib/python3.12/site-packages/mavros_config-0.0.0-py3.12.egg-info
+[18.361s] running install_scripts
+[22.461s] writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/install.log'
+[24.499s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mavros_config' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mavros_config/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mavros_config build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mavros_config/install.log --single-version-externally-managed install_data

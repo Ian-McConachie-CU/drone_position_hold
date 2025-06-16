@@ -1,0 +1,24 @@
+[1.383s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/visualizer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualizer build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log --single-version-externally-managed install_data
+[1.790s] running egg_info
+[1.821s] writing ../../build/visualizer/visualizer.egg-info/PKG-INFO
+[1.821s] writing dependency_links to ../../build/visualizer/visualizer.egg-info/dependency_links.txt
+[1.823s] writing entry points to ../../build/visualizer/visualizer.egg-info/entry_points.txt
+[1.827s] writing requirements to ../../build/visualizer/visualizer.egg-info/requires.txt
+[1.828s] writing top-level names to ../../build/visualizer/visualizer.egg-info/top_level.txt
+[1.887s] reading manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.888s] writing manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+[1.888s] running build
+[1.888s] running build_py
+[1.888s] copying visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer
+[1.889s] running install
+[1.899s] running install_lib
+[1.930s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer
+[1.931s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer/run_visualizer.py to run_visualizer.cpython-312.pyc
+[1.934s] running install_data
+[1.934s] running install_egg_info
+[1.965s] removing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info' (and everything under it)
+[1.968s] Copying ../../build/visualizer/visualizer.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info
+[1.968s] running install_scripts
+[2.170s] Installing run_visualizer script to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/visualizer
+[2.171s] writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log'
+[2.264s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/visualizer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visualizer build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log --single-version-externally-managed install_data

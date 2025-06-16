@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/visualizer/visualizer.egg-info/PKG-INFO
+writing dependency_links to ../../build/visualizer/visualizer.egg-info/dependency_links.txt
+writing entry points to ../../build/visualizer/visualizer.egg-info/entry_points.txt
+writing requirements to ../../build/visualizer/visualizer.egg-info/requires.txt
+writing top-level names to ../../build/visualizer/visualizer.egg-info/top_level.txt
+reading manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+writing manifest file '../../build/visualizer/visualizer.egg-info/SOURCES.txt'
+running build
+running build_py
+copying visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer
+running install
+running install_lib
+copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/build/lib/visualizer/run_visualizer.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer
+byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer/run_visualizer.py to run_visualizer.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/visualizer/visualizer.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/python3.12/site-packages/visualizer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing run_visualizer script to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/visualizer/lib/visualizer
+writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/visualizer/install.log'
