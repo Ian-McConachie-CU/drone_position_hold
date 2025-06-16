@@ -75,7 +75,7 @@ class visualizer(Node):
 
         # PERFORMANCE: Frame counting for selective updates
         self.frame_count = 0
-        self.overlay_update_interval = 5  # Update overlay every 5 frames
+        self.overlay_update_interval = 1  # Update overlay every 5 frames
 
         # setup subscriber and MAVLink
         self.setup_subscriber()
@@ -303,7 +303,7 @@ class visualizer(Node):
         self.ax2.set_title('Strain Data (Last 10 seconds)')
         self.ax2.legend(loc='upper right')
         self.ax2.set_xlim(0, self.window_length_s)  # FIXED: 0 to 10 seconds
-        self.ax2.set_ylim(-5, 5)  # FIXED: Adjust based on your strain range
+        self.ax2.set_ylim(-2000, 2000)  # FIXED: Adjust based on your strain range
         
         # Overlay plot - FIXED limits for complete snippet visualization
         self.ax3.set_xlabel('Time [s]')
@@ -419,17 +419,14 @@ class visualizer(Node):
     def _update_overlay_plot(self):
         """Fixed overlay plot update - shows complete snippets with debugging"""
         # PERFORMANCE: Only update if we have new snippets
-        if len(self.overlay_lines) == len(self.overlay_snippets):
-            return
+        # if len(self.overlay_lines) == len(self.overlay_snippets):
+        #     return
         
         # Clear and redraw
         for line in self.overlay_lines:
             line.remove()
         self.overlay_lines.clear()
-        
-        # Debug: Log overlay update
-        self.get_logger().info(f'Updating overlay plot with {len(self.overlay_snippets)} snippets')
-        
+                
         # Plot complete snippets with relative time from snippet start
         for i, snippet in enumerate(self.overlay_snippets):
             if len(snippet['times']) > 1:
@@ -444,7 +441,7 @@ class visualizer(Node):
                 snippet_relative_times = times - times[0]  # Start from 0
                 
                 # DEBUG: Log the time range being plotted
-                self.get_logger().info(f'Plotting snippet {i+1}: time range 0 to {snippet_relative_times[-1]:.1f}s')
+                # self.get_logger().info(f'Plotting snippet {i+1}: time range 0 to {snippet_relative_times[-1]:.1f}s')
                 
                 line, = self.ax3.plot(snippet_relative_times, z_data, 
                                     color=snippet['color'], 
