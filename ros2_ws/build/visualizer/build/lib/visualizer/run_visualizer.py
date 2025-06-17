@@ -65,7 +65,7 @@ class visualizer(Node):
         self.overlay_snippets = []
         self.recording_snippet = False
         self.snippet_start_time = None
-        self.snippet_duration = 15.0
+        self.snippet_duration = 10.0
         self.recording_delay = 2.0
         
         # Mode switch tracking
@@ -309,7 +309,6 @@ class visualizer(Node):
         self.ax3.set_xlabel('Time [s]')
         self.ax3.set_ylabel('Z [m]')
         self.ax3.grid(True, alpha=0.2)
-        self.ax3.set_title('Mode Transitions (Green: POSHOLD→ACRO, Red: POSHOLD→SPORT)')
         self.ax3.set_xlim(0, self.snippet_duration)  # FIXED: 0 to 15 seconds to show complete snippets
         self.ax3.set_ylim(-1, 3)  # FIXED: Adjust based on your Z range
         
@@ -399,17 +398,17 @@ class visualizer(Node):
             
             lines_to_return.extend(self.overlay_lines)
             
-            # PERFORMANCE: Update title less frequently
-            if self.frame_count % 30 == 0:  # Every 30 frames
-                recording_status = ""
-                if self.recording_snippet:
-                    recording_status = " [REC]"
-                elif self.pending_recording:
-                    remaining = self.recording_delay - (time.time() - self.mode_switch_time)
-                    recording_status = f" [REC in {remaining:.0f}s]"
+            # # PERFORMANCE: Update title less frequently
+            # if self.frame_count % 30 == 0:  # Every 30 frames
+            #     recording_status = ""
+            #     if self.recording_snippet:
+            #         recording_status = " [REC]"
+            #     elif self.pending_recording:
+            #         remaining = self.recording_delay - (time.time() - self.mode_switch_time)
+            #         recording_status = f" [REC in {remaining:.0f}s]"
                 
-                title = f"{self.current_flight_mode} ({('ARMED' if self.is_armed else 'DISARMED')}){recording_status}"
-                self.fig.suptitle(title, fontsize=14)
+            #     title = f"{self.current_flight_mode} ({('ARMED' if self.is_armed else 'DISARMED')}){recording_status}"
+            #     self.fig.suptitle(title, fontsize=14)
         
         finally:
             self.data_lock.release()
@@ -434,8 +433,8 @@ class visualizer(Node):
                 z_data = np.array(snippet['z_data'])
                 
                 # DEBUG: Log snippet details
-                duration = times[-1] - times[0]
-                self.get_logger().info(f'Snippet {i+1}: {len(times)} points, duration: {duration:.1f}s, range: {times[0]:.1f} to {times[-1]:.1f}')
+                # duration = times[-1] - times[0]
+                # self.get_logger().info(f'Snippet {i+1}: {len(times)} points, duration: {duration:.1f}s, range: {times[0]:.1f} to {times[-1]:.1f}')
                 
                 # IMPORTANT: Use relative time from SNIPPET START
                 snippet_relative_times = times - times[0]  # Start from 0
@@ -456,7 +455,7 @@ class visualizer(Node):
             self.ax3.legend(loc='upper right', fontsize=8)
             # Set x-axis to show complete recording duration
             self.ax3.set_xlim(0, self.snippet_duration)  # 0 to 8 seconds
-            self.get_logger().info(f'Set overlay plot x-limits to 0 - {self.snippet_duration}s')
+            # self.get_logger().info(f'Set overlay plot x-limits to 0 - {self.snippet_duration}s')
             self.ax3.relim()
             self.ax3.autoscale_view(scalex=False)  # Only auto-scale Y, keep X fixed
 
