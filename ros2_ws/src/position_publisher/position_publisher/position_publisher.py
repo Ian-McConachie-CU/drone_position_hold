@@ -27,7 +27,7 @@ class vicon2mavlink_bridge(Node):
         self.subscription  # prevent unused variable warning
         self.get_logger().info('Subscribed to mocap rigid_bodies!')
         
-	 # Store latest position data
+        # Store latest position data
         self.latest_position_data = None
         self.data_lock = threading.Lock()  # Add: import threading
         
@@ -44,7 +44,6 @@ class vicon2mavlink_bridge(Node):
         #unpack msg here  
         #  "bprl_drone.bprl_drone"
         # "Wand.Wand"
-
         for rigid_body in msg.rigidbodies:
             if rigid_body.rigid_body_name == "bprl_drone.bprl_drone":
                 break     
@@ -59,7 +58,6 @@ class vicon2mavlink_bridge(Node):
         qw = rigid_body.pose.orientation.w
 
         quaternion = np.array([qx, qy, qz, qw])
-
         quat_norm = np.linalg.norm(quaternion)
         
         if x == y == z == qx == qy == qz == qw == 0.0:
@@ -80,7 +78,6 @@ class vicon2mavlink_bridge(Node):
         # appears that rotation order is z-y-x:
         # https://mavsdk.mavlink.io/v1.4/en/cpp/api_reference/structmavsdk_1_1_camera_1_1_euler_angle.html
 
-        
         roll = euler_angles[0]
         pitch = euler_angles[1]
         yaw =  euler_angles[2]
@@ -88,13 +85,13 @@ class vicon2mavlink_bridge(Node):
         # roll = 0
         # pitch = 0
         # yaw = 0
-        
+
         '''
         FRAME CONVERSION FROM MOCAP TO NED
         Explain clearly what's going on with the conversions once we get there
         maybe include a link to image that explains this?
-        
-        
+
+
         '''
         x_ned = y
         y_ned = x
@@ -102,16 +99,15 @@ class vicon2mavlink_bridge(Node):
         roll_ned = pitch
         pitch_ned = roll
         yaw_ned = -yaw
-        
+
         #time_usec = int(time.time() * 1e6)
         time_usec = int((time.time() - time.time() % 86400) * 1e6)
-        
+
         #send data to FC via mavlink connection
         #self.send_global_vision_position_estimate(time_usec, x_ned, y_ned, z_ned, roll_ned, pitch_ned, yaw_ned)
         #self.send_vision_position_estimate(time_usec, x_ned, y_ned, z_ned, roll_ned, pitch_ned, yaw_ned)
-
-	with self.data_lock:
-           self.latest_position_data = {
+        with self.data_lock:
+            self.latest_position_data = {
                 'x_ned': x_ned,
                 'y_ned': y_ned,
                 'z_ned': z_ned,
@@ -120,9 +116,8 @@ class vicon2mavlink_bridge(Node):
                 'yaw_ned': yaw_ned,
                 'timestamp': time.time()
             }
-	
 
-  def publish_position(self):
+    def publish_position(self):
         """Timer callback to publish at 10Hz"""
         with self.data_lock:
             if self.latest_position_data is None:
@@ -157,13 +152,13 @@ class vicon2mavlink_bridge(Node):
                                              reset_counter = 0):
         """
         Sends a GLOBAL_VISION_POSITION_ESTIMATE message.
-        
+
         Parameters:
         - time_usec: Timestamp (microseconds, synced to UNIX epoch or system boot)
         - x, y, z: Global position in meters (NED frame)
         - roll, pitch, yaw: Attitude angles in radians
         """
-        
+
         #self.mavlink_master.mav.global_vision_position_estimate_send(
         #    usec=time_usec,           # Timestamp (microseconds)
         #    x=x,                 # Global X position
@@ -192,10 +187,10 @@ class vicon2mavlink_bridge(Node):
             yaw=yaw,
             covariance=covariance,
             reset_counter=reset_counter
-    )
+        )
 
         print(f"Sent GLOBAL_VISION_POSITION_ESTIMATE at time {time_usec}")
-        
+
 def main(args=None):
     print("entered main")
     
