@@ -2,6 +2,7 @@ from pymavlink import mavutil
 import time
 import rclpy
 import numpy as np
+import threading 
 from rclpy.node import Node
 from scipy.spatial.transform import Rotation as R
 from geometry_msgs.msg import PoseStamped
@@ -25,6 +26,13 @@ class vicon2mavlink_bridge(Node):
             10)
         self.subscription  # prevent unused variable warning
         self.get_logger().info('Subscribed to mocap rigid_bodies!')
+        
+	 # Store latest position data
+        self.latest_position_data = None
+        self.data_lock = threading.Lock()  # Add: import threading
+        
+        # Create timer for 10Hz publishing
+        self.publish_timer = self.create_timer(0.1, self.publish_position)  # 10Hz = 0.1 seconds
         
         self.mavlink_master = mavutil.mavlink_connection(mavlink_connection_string)
         self.get_logger().info('Connecting to mavlink...')
@@ -100,7 +108,42 @@ class vicon2mavlink_bridge(Node):
         
         #send data to FC via mavlink connection
         #self.send_global_vision_position_estimate(time_usec, x_ned, y_ned, z_ned, roll_ned, pitch_ned, yaw_ned)
-        self.send_vision_position_estimate(time_usec, x_ned, y_ned, z_ned, roll_ned, pitch_ned, yaw_ned)
+        #self.send_vision_position_estimate(time_usec, x_ned, y_ned, z_ned, roll_ned, pitch_ned, yaw_ned)
+
+	with self.data_lock:
+           self.latest_position_data = {
+                'x_ned': x_ned,
+                'y_ned': y_ned,
+                'z_ned': z_ned,
+                'roll_ned': roll_ned,
+                'pitch_ned': pitch_ned,
+                'yaw_ned': yaw_ned,
+                'timestamp': time.time()
+            }
+	
+
+  def publish_position(self):
+        """Timer callback to publish at 10Hz"""
+        with self.data_lock:
+            if self.latest_position_data is None:
+                return
+            
+            # Check if data is recent (within last 200ms)
+            if time.time() - self.latest_position_data['timestamp'] > 0.2:
+                self.get_logger().warn("Mocap data is stale, skipping publish")
+                return
+            
+            time_usec = int((time.time() - time.time() % 86400) * 1e6)
+            
+            self.send_vision_position_estimate(
+                time_usec,
+                self.latest_position_data['x_ned'],
+                self.latest_position_data['y_ned'],
+                self.latest_position_data['z_ned'],
+                self.latest_position_data['roll_ned'],
+                self.latest_position_data['pitch_ned'],
+                self.latest_position_data['yaw_ned']
+            )
 
     def send_vision_position_estimate(self,
                                              time_usec, 
