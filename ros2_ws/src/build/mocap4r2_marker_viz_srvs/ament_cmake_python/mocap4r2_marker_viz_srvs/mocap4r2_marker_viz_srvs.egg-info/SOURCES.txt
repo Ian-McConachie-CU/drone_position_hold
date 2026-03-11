@@ -1,0 +1,6 @@
+setup.py
+mocap4r2_marker_viz_srvs/__init__.py
+mocap4r2_marker_viz_srvs.egg-info/PKG-INFO
+mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt
+mocap4r2_marker_viz_srvs.egg-info/dependency_links.txt
+mocap4r2_marker_viz_srvs.egg-info/top_level.txt

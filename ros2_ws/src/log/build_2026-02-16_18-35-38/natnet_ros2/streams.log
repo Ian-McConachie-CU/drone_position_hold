@@ -1,0 +1,325 @@
+[0.015s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/natnet_ros2 -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2
+[0.313s] -- The C compiler identification is GNU 13.3.0
+[0.630s] -- The CXX compiler identification is GNU 13.3.0
+[0.719s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.061s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[1.061s] -- Detecting C compile features
+[1.064s] -- Detecting C compile features - done
+[1.100s] -- Detecting CXX compiler ABI info
+[1.385s] -- Detecting CXX compiler ABI info - done
+[1.411s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.412s] -- Detecting CXX compile features
+[1.413s] -- Detecting CXX compile features - done
+[1.421s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.761s] -- Found Python3: /home/strain-drone/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.009s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.071s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.096s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.160s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.316s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.324s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.503s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.546s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.727s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.780s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[2.859s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.120s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.164s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.192s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.195s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[3.201s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[5.425s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.656s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[11.229s] -- Found PythonExtra: /home/strain-drone/venv-ardupilot/bin/python3  
+[12.340s] -- Found Python3: /home/strain-drone/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.493s] SDK already installed.
+[12.512s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[12.513s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[12.513s]   rosidl_target_interfaces().  i.e:
+[12.513s] 
+[12.513s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[12.513s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[12.513s] 
+[12.513s] Call Stack (most recent call first):
+[12.513s]   CMakeLists.txt:80 (rosidl_target_interfaces)
+[12.513s] 
+[12.514s] [0m
+[12.523s] -- Found ament_cmake_copyright: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[12.529s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[12.537s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[12.545s] -- Found ament_cmake_lint_cmake: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[12.557s] -- Found ament_cmake_xmllint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[12.563s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[12.572s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/natnet_ros2` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[12.585s] -- Configuring done (12.5s)
+[12.693s] -- Generating done (0.1s)
+[12.730s] -- Build files have been written to: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2
+[12.773s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/natnet_ros2 -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2
+[12.775s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2 -- -j4 -l4
+[12.938s] [  2%] [32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/natnet_ros2.cpp.o[0m
+[12.938s] [  2%] Built target ament_cmake_python_copy_natnet_ros2
+[12.987s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.011s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:[m[K In member function ‘[01m[Kvoid NatNetNode::[01;32m[Kget_node_params[m[K()[m[K’:
+[13.012s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::[01;32m[KParameterDescriptor_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[13.013s]    71 |         [01;35m[Kdeclare_parameter<std::vector<std::string>>("object_names", {})[m[K;
+[13.013s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[13.013s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[13.036s] [  5%] Built target ament_cmake_python_copy_natnet_ros2_py
+[13.083s] [  7%] [32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/nn_filter.cpp.o[0m
+[13.136s] [ 10%] [32m[1mLinking CXX executable natnet_ros2_node[0m
+[14.589s] [ 10%] Built target natnet_ros2__rosidl_generator_type_description
+[14.618s] running egg_info
+[14.734s] [ 12%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.747s] creating natnet_ros2_py.egg-info
+[14.747s] writing natnet_ros2_py.egg-info/PKG-INFO
+[14.756s] writing dependency_links to natnet_ros2_py.egg-info/dependency_links.txt
+[14.756s] writing top-level names to natnet_ros2_py.egg-info/top_level.txt
+[14.756s] writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[14.757s] running egg_info
+[14.876s] creating natnet_ros2.egg-info
+[14.904s] writing natnet_ros2.egg-info/PKG-INFO
+[14.904s] writing dependency_links to natnet_ros2.egg-info/dependency_links.txt
+[14.906s] writing top-level names to natnet_ros2.egg-info/top_level.txt
+[14.907s] writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[15.121s] [ 12%] Built target natnet_ros2_node
+[15.287s] [ 15%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.960s] reading manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[15.961s] writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[16.311s] reading manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[16.321s] writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[16.420s] [ 15%] Built target ament_cmake_python_build_natnet_ros2_py_egg
+[16.800s] [ 15%] Built target ament_cmake_python_build_natnet_ros2_egg
+[17.238s] [ 15%] Built target natnet_ros2__cpp
+[17.563s] [ 17%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o[0m
+[17.587s] [ 20%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__functions.c.o[0m
+[17.594s] [ 23%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__description.c.o[0m
+[18.083s] [ 25%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_generator_c.so[0m
+[18.289s] [ 25%] Built target natnet_ros2__rosidl_generator_c
+[18.328s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.344s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.361s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[18.361s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.247s] [ 38%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/natnet_ros2/srv/marker_poses__type_support.cpp.o[0m
+[19.328s] [ 41%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_cpp.so[0m
+[19.377s] [ 43%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o[0m
+[19.466s] [ 46%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_typesupport_introspection_c.so[0m
+[19.658s] [ 48%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/natnet_ros2/srv/detail/dds_fastrtps/marker_poses__type_support.cpp.o[0m
+[19.692s] [ 48%] Built target natnet_ros2__rosidl_typesupport_introspection_c
+[19.744s] [ 51%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.777s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.987s] [ 53%] Built target natnet_ros2__rosidl_typesupport_cpp
+[20.050s] [ 56%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/natnet_ros2/srv/detail/marker_poses__type_support_c.cpp.o[0m
+[20.103s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.165s] [ 61%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[20.362s] [ 61%] Built target natnet_ros2__rosidl_typesupport_fastrtps_cpp
+[20.492s] [ 61%] Built target natnet_ros2__rosidl_typesupport_fastrtps_c
+[20.798s] [ 64%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/natnet_ros2/srv/marker_poses__type_support.cpp.o[0m
+[20.844s] [ 66%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_c.so[0m
+[21.031s] [ 66%] Built target natnet_ros2__rosidl_typesupport_c
+[21.198s] [ 69%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/natnet_ros2/srv/detail/marker_poses__type_support.cpp.o[0m
+[21.232s] [ 71%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[21.443s] [ 71%] Built target natnet_ros2__rosidl_typesupport_introspection_cpp
+[21.496s] [ 71%] Built target natnet_ros2
+[21.564s] [ 74%] [32mBuilding CXX object CMakeFiles/marker_poses_server.dir/src/marker_poses_server.cpp.o[0m
+[21.565s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.632s] [ 79%] [32m[1mLinking CXX executable marker_poses_server[0m
+[22.567s] [ 79%] Built target marker_poses_server
+[22.705s] [ 79%] Built target natnet_ros2__py
+[22.751s] [ 82%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_py.dir/rosidl_generator_py/natnet_ros2/srv/_marker_poses_s.c.o[0m
+[22.792s] [ 84%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_generator_py.so[0m
+[22.945s] [ 84%] Built target natnet_ros2__rosidl_generator_py
+[23.018s] [ 87%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[23.023s] [ 89%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.038s] [ 92%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.068s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so[0m
+[23.088s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so[0m
+[23.104s] [100%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so[0m
+[23.221s] [100%] Built target natnet_ros2_s__rosidl_typesupport_fastrtps_c
+[23.230s] [100%] Built target natnet_ros2_s__rosidl_typesupport_c
+[23.237s] [100%] Built target natnet_ros2_s__rosidl_typesupport_introspection_c
+[23.279s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2 -- -j4 -l4
+[23.280s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2
+[23.308s] -- Install configuration: ""
+[23.309s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/rosidl_interfaces/natnet_ros2
+[23.310s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.json
+[23.312s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.312s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.312s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.312s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__functions.h
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.h
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__description.c
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.c
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.h
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__functions.c
+[23.313s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.h
+[23.314s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[23.314s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_c__visibility_control.h
+[23.314s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/library_path.sh
+[23.314s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/library_path.dsv
+[23.315s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so
+[23.318s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so" to ""
+[23.318s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.319s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_c.h
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[23.319s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.319s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so
+[23.319s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.319s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.320s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.hpp
+[23.320s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.hpp
+[23.320s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__builder.hpp
+[23.320s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__traits.hpp
+[23.320s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.hpp
+[23.320s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[23.321s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[23.321s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.321s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.321s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.321s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/dds_fastrtps
+[23.321s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[23.321s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[23.322s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.322s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so
+[23.323s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.324s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.325s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.325s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.325s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_c.h
+[23.325s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.c
+[23.325s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[23.325s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.327s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so
+[23.327s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so" to ""
+[23.327s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so
+[23.328s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so" to ""
+[23.328s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[23.329s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[23.329s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[23.329s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_cpp.hpp
+[23.329s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.cpp
+[23.329s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so
+[23.331s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[23.332s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so
+[23.333s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so" to ""
+[23.335s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.sh
+[23.335s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.dsv
+[23.336s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info
+[23.336s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/dependency_links.txt
+[23.339s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/PKG-INFO
+[23.339s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/top_level.txt
+[23.339s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/SOURCES.txt
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py
+[23.340s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses_s.c
+[23.342s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py
+[23.344s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so
+[23.347s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so
+[23.348s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py
+[23.348s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.348s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so
+[23.468s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2'...
+[23.468s] Compiling '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py'...
+[23.468s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv'...
+[23.469s] Compiling '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py'...
+[23.469s] Compiling '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py'...
+[23.487s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so
+[23.488s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[23.489s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so
+[23.490s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so" to ""
+[23.490s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so
+[23.492s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so" to ""
+[23.492s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so
+[23.494s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so" to ""
+[23.494s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.idl
+[23.494s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.srv
+[23.494s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2
+[23.494s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp
+[23.495s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/object_data.hpp
+[23.495s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp
+[23.495s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch
+[23.495s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch/natnet_ros2.launch.py
+[23.497s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch/gui_natnet_ros2.launch.py
+[23.497s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config
+[23.497s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config/initiate.yaml
+[23.498s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config/conf_autogen.yaml
+[23.498s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui
+[23.498s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/helper.ui
+[23.498s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/ros-logo.png
+[23.498s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/logo.png
+[23.502s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/natnet_ros2_node
+[23.506s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/natnet_ros2_node" to ""
+[23.508s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/bin/natnet_ros2_node
+[23.530s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/bin/natnet_ros2_node" to ""
+[23.530s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/marker_poses_server
+[23.535s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/marker_poses_server" to ""
+[23.540s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/bin/marker_poses_server
+[23.546s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/bin/marker_poses_server" to ""
+[23.547s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info
+[23.547s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/dependency_links.txt
+[23.550s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/PKG-INFO
+[23.550s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/top_level.txt
+[23.555s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/SOURCES.txt
+[23.555s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py
+[23.555s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py
+[23.556s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py
+[23.625s] Listing '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py'...
+[23.626s] Compiling '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py'...
+[23.626s] Compiling '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py'...
+[23.642s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/helper_node_r2.py
+[23.643s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include
+[23.644s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2
+[23.644s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp
+[23.644s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/object_data.hpp
+[23.644s] -- Up-to-date: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp
+[23.644s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/package_run_dependencies/natnet_ros2
+[23.644s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/parent_prefix_path/natnet_ros2
+[23.644s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.sh
+[23.644s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.dsv
+[23.645s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/path.sh
+[23.645s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/path.dsv
+[23.646s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.bash
+[23.646s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.sh
+[23.646s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.zsh
+[23.646s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.dsv
+[23.646s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/package.dsv
+[23.647s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/packages/natnet_ros2
+[23.647s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport.cmake
+[23.647s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport-noconfig.cmake
+[23.648s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[23.648s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.648s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cppExport.cmake
+[23.648s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.648s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.649s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport.cmake
+[23.649s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.649s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport.cmake
+[23.649s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[23.650s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[23.650s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.650s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport.cmake
+[23.650s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[23.651s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport.cmake
+[23.651s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport-noconfig.cmake
+[23.651s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake-extras.cmake
+[23.651s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.652s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.652s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[23.652s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[23.652s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.653s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.653s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config.cmake
+[23.653s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config-version.cmake
+[23.653s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/package.xml
+[23.658s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/natnet_ros2

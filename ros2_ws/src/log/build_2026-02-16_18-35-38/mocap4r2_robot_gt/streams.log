@@ -1,0 +1,86 @@
+[0.031s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt
+[0.231s] -- The C compiler identification is GNU 13.3.0
+[0.397s] -- The CXX compiler identification is GNU 13.3.0
+[0.457s] -- Detecting C compiler ABI info
+[0.680s] -- Detecting C compiler ABI info - done
+[0.697s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.697s] -- Detecting C compile features
+[0.698s] -- Detecting C compile features - done
+[0.729s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[1.003s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.005s] -- Detecting CXX compile features
+[1.006s] -- Detecting CXX compile features - done
+[1.013s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.563s] -- Found Python3: /home/strain-drone/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.851s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.940s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.974s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.029s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.244s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.250s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.471s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.510s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.586s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.755s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.827s] -- Found mocap4r2_msgs: 0.0.3 (/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.907s] -- Found mocap4r2_robot_gt_msgs: 0.0.7 (/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake)
+[2.946s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[3.099s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.128s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.131s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.132s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.164s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.851s] -- Configured cppcheck include dirs: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt/include
+[3.851s] -- Configured cppcheck exclude dirs and/or files: 
+[3.855s] -- Added test 'lint_cmake' to check CMake code style
+[3.870s] -- Added test 'uncrustify' to check C / C++ code style
+[3.870s] -- Configured uncrustify additional arguments: 
+[3.871s] -- Added test 'xmllint' to check XML markup files
+[3.895s] -- Configuring done (3.8s)
+[4.261s] -- Generating done (0.3s)
+[4.402s] -- Build files have been written to: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt
+[4.583s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt
+[4.595s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt -- -j4 -l4
+[4.878s] [ 12%] [32mBuilding CXX object CMakeFiles/gt_component.dir/src/mocap4r2_robot_gt/gt_component.cpp.o[0m
+[4.899s] [ 25%] [32mBuilding CXX object CMakeFiles/set_gt_component.dir/src/mocap4r2_robot_gt/set_gt_component.cpp.o[0m
+[5.058s] [ 37%] [32m[1mLinking CXX shared library libset_gt_component.so[0m
+[5.153s] [ 50%] [32m[1mLinking CXX shared library libgt_component.so[0m
+[7.225s] [ 50%] Built target set_gt_component
+[7.364s] [ 62%] [32mBuilding CXX object CMakeFiles/set_gt_cli.dir/src/set_gt_cli.cpp.o[0m
+[7.488s] [ 75%] [32m[1mLinking CXX executable set_gt_cli[0m
+[8.486s] [ 75%] Built target set_gt_cli
+[9.197s] [ 75%] Built target gt_component
+[9.317s] [ 87%] [32mBuilding CXX object CMakeFiles/gt_program.dir/src/gt_program.cpp.o[0m
+[9.390s] [100%] [32m[1mLinking CXX executable gt_program[0m
+[11.465s] [100%] Built target gt_program
+[11.497s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt -- -j4 -l4
+[11.500s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt
+[11.521s] -- Install configuration: ""
+[11.522s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/libgt_component.so
+[11.543s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/libgt_component.so" to ""
+[11.546s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/gt_program
+[11.547s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/gt_program" to ""
+[11.547s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/libset_gt_component.so
+[11.548s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/libset_gt_component.so" to ""
+[11.548s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/set_gt_cli
+[11.549s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/lib/mocap4r2_robot_gt/set_gt_cli" to ""
+[11.550s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/ament_index/resource_index/package_run_dependencies/mocap4r2_robot_gt
+[11.550s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/ament_index/resource_index/parent_prefix_path/mocap4r2_robot_gt
+[11.551s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.sh
+[11.551s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/ament_prefix_path.dsv
+[11.553s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.sh
+[11.556s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/environment/path.dsv
+[11.558s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.bash
+[11.559s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.sh
+[11.560s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.zsh
+[11.560s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/local_setup.dsv
+[11.560s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.dsv
+[11.563s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/ament_index/resource_index/packages/mocap4r2_robot_gt
+[11.563s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/ament_index/resource_index/rclcpp_components/mocap4r2_robot_gt
+[11.566s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig.cmake
+[11.567s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/cmake/mocap4r2_robot_gtConfig-version.cmake
+[11.568s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.xml
+[11.569s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/install/mocap4r2_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/build/mocap4r2_robot_gt
