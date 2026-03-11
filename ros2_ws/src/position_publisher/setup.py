@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'position_publisher = position_publisher.position_publisher:main',
+            'drone_commander = position_publisher.drone_commander:main',
         ],
     },
 )
