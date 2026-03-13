@@ -1,0 +1,3 @@
+[console_scripts]
+drone_commander = position_publisher.drone_commander:main
+position_publisher = position_publisher.position_publisher:main

@@ -1,0 +1,61 @@
+[2.646s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2cli': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data
+[3.345s] running egg_info
+[3.348s] creating ../../../build/mocap4r2cli/mocap4r2cli.egg-info
+[3.396s] writing ../../../build/mocap4r2cli/mocap4r2cli.egg-info/PKG-INFO
+[3.396s] writing dependency_links to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/dependency_links.txt
+[3.397s] writing entry points to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/entry_points.txt
+[3.398s] writing requirements to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/requires.txt
+[3.399s] writing top-level names to ../../../build/mocap4r2cli/mocap4r2cli.egg-info/top_level.txt
+[3.399s] writing manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[3.513s] reading manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[3.514s] adding license file 'LICENSE'
+[3.516s] writing manifest file '../../../build/mocap4r2cli/mocap4r2cli.egg-info/SOURCES.txt'
+[3.517s] running build
+[3.517s] running build_py
+[3.519s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build
+[3.519s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib
+[3.519s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[3.521s] copying mocap4r2cli/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli
+[3.521s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[3.522s] copying mocap4r2cli/command/mocap4r2.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[3.525s] copying mocap4r2cli/command/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command
+[3.525s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[3.526s] copying mocap4r2cli/api/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api
+[3.528s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[3.528s] copying mocap4r2cli/verb/status.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[3.530s] copying mocap4r2cli/verb/start.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[3.531s] copying mocap4r2cli/verb/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[3.533s] copying mocap4r2cli/verb/stop.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb
+[3.535s] running install
+[3.552s] running install_lib
+[3.600s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[3.601s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[3.602s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/mocap4r2.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[3.603s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/command/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command
+[3.604s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[3.605s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/api/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api
+[3.607s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[3.607s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/status.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[3.607s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/start.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[3.608s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[3.609s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/verb/stop.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb
+[3.611s] copying /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build/lib/mocap4r2cli/__init__.py -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli
+[3.611s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/mocap4r2.py to mocap4r2.cpython-312.pyc
+[3.613s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/command/__init__.py to __init__.cpython-312.pyc
+[3.614s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/api/__init__.py to __init__.cpython-312.pyc
+[3.617s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/status.py to status.cpython-312.pyc
+[3.618s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/start.py to start.cpython-312.pyc
+[3.620s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/__init__.py to __init__.cpython-312.pyc
+[3.625s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/verb/stop.py to stop.cpython-312.pyc
+[3.626s] byte-compiling /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli/__init__.py to __init__.cpython-312.pyc
+[3.627s] running install_data
+[3.629s] copying package.xml -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/share/mocap4r2cli
+[3.630s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/share/ament_index
+[3.631s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/share/ament_index/resource_index
+[3.633s] creating /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[3.633s] copying resource/mocap4r2cli -> /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[3.635s] running install_egg_info
+[3.696s] Copying ../../../build/mocap4r2cli/mocap4r2cli.egg-info to /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli-0.0.1-py3.12.egg-info
+[3.699s] running install_scripts
+[4.069s] writing list of installed files to '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/install.log'
+[4.207s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4r2/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mocap4r2cli build --build-base /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/build install --record /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2cli/install.log --single-version-externally-managed install_data

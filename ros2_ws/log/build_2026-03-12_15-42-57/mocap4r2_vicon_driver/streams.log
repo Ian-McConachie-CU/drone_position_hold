@@ -1,0 +1,188 @@
+[0.024s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver
+[0.168s] -- The C compiler identification is GNU 13.3.0
+[0.343s] -- The CXX compiler identification is GNU 13.3.0
+[0.381s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.599s] -- Detecting CXX compiler ABI info
+[0.804s] -- Detecting CXX compiler ABI info - done
+[0.819s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.819s] -- Detecting CXX compile features
+[0.820s] -- Detecting CXX compile features - done
+[0.824s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.132s] -- Found Python3: /home/strain-drone/venv-ardupilot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.351s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.406s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.427s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.589s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.738s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.767s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.806s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.909s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.953s] -- Found mocap4r2_msgs: 0.0.3 (/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[2.025s] -- Found mocap4r2_control: 0.0.7 (/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[2.362s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time chrono 
+[2.433s] -- Found ament_cmake_copyright: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[2.436s] -- Found ament_cmake_cppcheck: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.441s] -- Found ament_cmake_cpplint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.444s] -- Found ament_cmake_lint_cmake: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[2.449s] -- Found ament_cmake_xmllint: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[2.453s] -- Found ament_cmake_uncrustify: 0.17.2 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.476s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.479s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.486s] -- Found Threads: TRUE  
+[2.685s] -- Configuring done (2.6s)
+[2.937s] -- Generating done (0.2s)
+[2.953s] -- Build files have been written to: /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver
+[3.015s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver -DCMAKE_INSTALL_PREFIX=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver
+[3.016s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver -- -j4 -l4
+[3.187s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.207s] [  6%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconCGStream/Dummy.cpp.o[0m
+[3.207s] [ 10%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o[0m
+[3.210s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.352s] [ 16%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o[0m
+[3.627s] [ 20%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp.o[0m
+[6.776s] [ 23%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.963s] [ 23%] Built target gtest_main
+[7.006s] [ 26%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconCGStreamClientSDK/CGClient.cpp.o[0m
+[25.293s] [ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[25.741s] [ 30%] Built target gtest
+[43.335s] [ 33%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimerUtils.cpp.o[0m
+[45.560s] [ 36%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingClient.cpp.o[0m
+[53.847s] [ 40%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp.o[0m
+[55.867s] [ 43%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/SegmentPoseReader.cpp.o[0m
+[56.887s] [ 46%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp.o[0m
+[57.915s] [ 50%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/CoreClient.cpp.o[0m
+[65.169s] [ 53%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o[0m
+[65.855s] [ 56%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp.o[0m
+[66.236s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:30:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K-Wunknown-pragmas[m[K]
+[66.239s]    30 | #pragma warning( push )
+[66.239s]       | 
+[66.239s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:31:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K-Wunknown-pragmas[m[K]
+[66.239s]    31 | #pragma warning( disable : 4265 )
+[66.240s]       | 
+[66.240s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:33:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma warning [m[K’ [[01;35m[K-Wunknown-pragmas[m[K]
+[66.240s]    33 | #pragma warning( pop )
+[66.240s]       | 
+[66.240s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<const ViconDataStreamSDK::Core::VSubjectPose> ViconDataStreamSDK::Core::VRetimingCore::[01;32m[KPredict[m[K(std::shared_ptr<const ViconDataStreamSDK::Core::VSubjectPose>, std::shared_ptr<const ViconDataStreamSDK::Core::VSubjectPose>, double) const[m[K’:
+[66.241s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:194:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KLatency[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, double>[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.241s]   194 |       for( const auto [01;35m[KLatency[m[K : p1->Latencies )
+[66.241s]       |                       [01;35m[K^~~~~~~[m[K
+[66.241s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:194:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.241s]   194 |       for( const auto [01;36m[KLatency[m[K : p1->Latencies )
+[66.241s]       |                       [01;36m[K^~~~~~~[m[K
+[66.246s]       |                       [32m[K&[m[K
+[66.246s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:204:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KSegIt[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, std::shared_ptr<ViconDataStreamSDK::Core::VSegmentPose> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.246s]   204 |       for( const auto [01;35m[KSegIt[m[K : p1->m_Segments )
+[66.246s]       |                       [01;35m[K^~~~~[m[K
+[66.246s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:204:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.247s]   204 |       for( const auto [01;36m[KSegIt[m[K : p1->m_Segments )
+[66.247s]       |                       [01;36m[K^~~~~[m[K
+[66.247s]       |                       [32m[K&[m[K
+[66.247s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:207:25:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KSegIt2[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, std::shared_ptr<ViconDataStreamSDK::Core::VSegmentPose> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.247s]   207 |         for( const auto [01;35m[KSegIt2[m[K : p2->m_Segments )
+[66.247s]       |                         [01;35m[K^~~~~~[m[K
+[66.247s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:207:25:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.248s]   207 |         for( const auto [01;36m[KSegIt2[m[K : p2->m_Segments )
+[66.248s]       |                         [01;36m[K^~~~~~[m[K
+[66.248s]       |                         [32m[K&[m[K
+[66.248s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:[m[K In static member function ‘[01m[Kstatic std::string ViconDataStreamSDK::Core::VSubjectPose::[01;32m[KOutputHeader[m[K(const std::shared_ptr<ViconDataStreamSDK::Core::VSubjectPose>&)[m[K’:
+[66.248s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:394:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KLatency[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, double>[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.250s]   394 |       for( const auto [01;35m[KLatency[m[K : i_rPose->Latencies )
+[66.251s]       |                       [01;35m[K^~~~~~~[m[K
+[66.251s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:394:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.251s]   394 |       for( const auto [01;36m[KLatency[m[K : i_rPose->Latencies )
+[66.251s]       |                       [01;36m[K^~~~~~~[m[K
+[66.251s]       |                       [32m[K&[m[K
+[66.252s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:[m[K In function ‘[01m[Kstd::ostream& ViconDataStreamSDK::Core::[01;32m[Koperator<<[m[K(std::ostream&, const VSubjectPose&)[m[K’:
+[66.252s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:414:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KLatencySample[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, double>[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.252s]   414 |       for( const auto [01;35m[KLatencySample[m[K : i_Pose.Latencies )
+[66.252s]       |                       [01;35m[K^~~~~~~~~~~~~[m[K
+[66.252s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:414:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.252s]   414 |       for( const auto [01;36m[KLatencySample[m[K : i_Pose.Latencies )
+[66.252s]       |                       [01;36m[K^~~~~~~~~~~~~[m[K
+[66.252s]       |                       [32m[K&[m[K
+[66.253s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:423:23:[m[K [01;35m[Kwarning: [m[Kloop variable ‘[01m[KrSegment[m[K’ creates a copy from type ‘[01m[Kconst std::pair<const std::__cxx11::basic_string<char>, std::shared_ptr<ViconDataStreamSDK::Core::VSegmentPose> >[m[K’ [[01;35m[K-Wrange-loop-construct[m[K]
+[66.253s]   423 |       for( const auto [01;35m[KrSegment[m[K : i_Pose.m_Segments )
+[66.253s]       |                       [01;35m[K^~~~~~~~[m[K
+[66.253s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp:423:23:[m[K [01;36m[Knote: [m[Kuse reference type to prevent copying
+[66.253s]   423 |       for( const auto [01;36m[KrSegment[m[K : i_Pose.m_Segments )
+[66.258s]       |                       [01;36m[K^~~~~~~~[m[K
+[66.258s]       |                       [32m[K&[m[K
+[66.285s] [ 60%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp.o[0m
+[67.139s] [ 63%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp.o[0m
+[68.627s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:[m[K In function ‘[01m[KCEnum[01;32m[K Client_EnableGreyscaleData[m[K(CClient*)[m[K’:
+[68.628s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:688:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[68.628s]   688 | CEnum Client_EnableGreyscaleData( [01;35m[KCClient* client[m[K )
+[68.628s]       |                                   [01;35m[K~~~~~~~~~^~~~~~[m[K
+[68.628s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:[m[K In function ‘[01m[KCEnum[01;32m[K Client_DisableGreyscaleData[m[K(CClient*)[m[K’:
+[68.628s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:713:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[68.628s]   713 | CEnum Client_DisableGreyscaleData( [01;35m[KCClient* client[m[K )
+[68.628s]       |                                    [01;35m[K~~~~~~~~~^~~~~~[m[K
+[68.629s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:[m[K In function ‘[01m[KCBool[01;32m[K Client_IsGreyscaleDataEnabled[m[K(CClient*)[m[K’:
+[68.629s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:738:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[68.629s]   738 | CBool Client_IsGreyscaleDataEnabled( [01;35m[KCClient* client[m[K )
+[68.629s]       |                                      [01;35m[K~~~~~~~~~^~~~~~[m[K
+[68.629s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:[m[K In function ‘[01m[KCBool[01;32m[K Client_IsVideoDataEnabled[m[K(CClient*)[m[K’:
+[68.629s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:743:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kclient[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[68.630s]   743 | CBool Client_IsVideoDataEnabled( [01;35m[KCClient* client[m[K )
+[68.630s]       |                                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[68.630s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K Client_SetBufferSize[m[K(CClient*, unsigned int)[m[K’:
+[68.630s] [01m[K/home/strain-drone/Documents/drone_position_hold/ros2_ws/src/mocap4ros2_vicon/mocap4r2_vicon_driver/ThirdParty/DataStream/ViconDataStreamSDK_C/CClient.cpp:758:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbufferSize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[68.630s]   758 | void Client_SetBufferSize( CClient* client, [01;35m[Kunsigned int bufferSize[m[K )
+[68.630s]       |                                             [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[68.653s] [ 66%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDK_C/CRetimingClient.cpp.o[0m
+[69.902s] [ 70%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o[0m
+[79.419s] [ 73%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/StreamCommon/CGStreamAsyncReaderWriter.cpp.o[0m
+[79.459s] [ 76%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/ThirdParty/DataStream/ViconDataStreamSDK_CPP/DataStreamRetimingClient.cpp.o[0m
+[87.217s] [ 80%] [32m[1mLinking CXX shared library libvicon_sdk.so[0m
+[88.090s] [ 80%] Built target vicon_sdk
+[88.130s] [ 83%] [32mBuilding CXX object CMakeFiles/mocap4r2_vicon_driver.dir/src/mocap4r2_vicon_driver/mocap4r2_vicon_driver.cpp.o[0m
+[97.424s] [ 86%] [32m[1mLinking CXX static library libmocap4r2_vicon_driver.a[0m
+[97.723s] [ 86%] Built target mocap4r2_vicon_driver
+[97.761s] [ 93%] [32mBuilding CXX object CMakeFiles/test_mocap4r2_vicon_driver.dir/test/test_mocap4r2_vicon_driver.cpp.o[0m
+[97.761s] [ 93%] [32mBuilding CXX object CMakeFiles/mocap4r2_vicon_driver_main.dir/src/mocap4r2_vicon_driver_main.cpp.o[0m
+[103.361s] [ 96%] [32m[1mLinking CXX executable mocap4r2_vicon_driver_main[0m
+[103.403s] [100%] [32m[1mLinking CXX executable test_mocap4r2_vicon_driver[0m
+[104.622s] [100%] Built target test_mocap4r2_vicon_driver
+[105.979s] [100%] Built target mocap4r2_vicon_driver_main
+[106.001s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver -- -j4 -l4
+[106.003s] Invoking command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver
+[106.019s] -- Install configuration: ""
+[106.019s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include/
+[106.019s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include//mocap4r2_vicon_driver
+[106.019s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/include//mocap4r2_vicon_driver/mocap4r2_vicon_driver.hpp
+[106.019s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch
+[106.020s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/launch/mocap4r2_vicon_driver_launch.py
+[106.021s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/config
+[106.021s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/config/mocap4r2_vicon_driver_params.yaml
+[106.022s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/mocap4r2_vicon_driver/mocap4r2_vicon_driver_main
+[106.026s] -- Set non-toolchain portion of runtime path of "/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/mocap4r2_vicon_driver/mocap4r2_vicon_driver_main" to ""
+[106.027s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/libmocap4r2_vicon_driver.a
+[106.034s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/lib/libvicon_sdk.so
+[106.048s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/library_path.sh
+[106.049s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/library_path.dsv
+[106.049s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_vicon_driver
+[106.049s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_vicon_driver
+[106.049s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/ament_prefix_path.sh
+[106.049s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/ament_prefix_path.dsv
+[106.050s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/path.sh
+[106.050s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/environment/path.dsv
+[106.050s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.bash
+[106.050s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.sh
+[106.050s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.zsh
+[106.051s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/local_setup.dsv
+[106.051s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/package.dsv
+[106.051s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/ament_index/resource_index/packages/mocap4r2_vicon_driver
+[106.051s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.051s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[106.052s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.052s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/mocap4r2_vicon_driverConfig.cmake
+[106.052s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/cmake/mocap4r2_vicon_driverConfig-version.cmake
+[106.052s] -- Installing: /home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_vicon_driver/share/mocap4r2_vicon_driver/package.xml
+[106.056s] Invoked command in '/home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver' returned '0': AMENT_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-ardupilot) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/strain-drone/Documents/drone_position_hold/ros2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/strain-drone/Documents/drone_position_hold/ros2_ws/build/mocap4r2_vicon_driver

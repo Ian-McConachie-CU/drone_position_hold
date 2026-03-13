@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mavros_config/mavros_config.egg-info/PKG-INFO
+../../build/mavros_config/mavros_config.egg-info/SOURCES.txt
+../../build/mavros_config/mavros_config.egg-info/dependency_links.txt
+../../build/mavros_config/mavros_config.egg-info/requires.txt
+../../build/mavros_config/mavros_config.egg-info/top_level.txt
+../../build/mavros_config/mavros_config.egg-info/zip-safe
+launch/mavros.launch.py
+mavros_config/__init__.py
+resource/mavros_config
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
